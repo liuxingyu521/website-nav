@@ -1,10 +1,14 @@
 <script lang="ts" setup>
+import { getAppPrefix } from '@/utils/common'
+
 defineProps({
   section: {
     type: Object,
     default: () => ({}),
   },
 })
+
+const appPrefix = getAppPrefix()
 </script>
 
 <template>
@@ -21,7 +25,10 @@ defineProps({
       >
         <a :href="link.url" target="_blank">
           <div class="nav-section__item__left">
-            <img v-if="link.logo" :src="`/assets/logos/${link.logo}`" />
+            <img
+              v-if="link.logo"
+              :src="`${appPrefix}/assets/logos/${link.logo}`"
+            />
             <img v-else src="/default-link.png" />
           </div>
           <div class="nav-section__item__right">
