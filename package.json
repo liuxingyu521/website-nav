@@ -14,8 +14,7 @@
     "prepare": "npx husky install"
   },
   "dependencies": {
-    "vue": "^3.2.37",
-    "vue-router": "4"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
