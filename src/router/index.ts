@@ -13,6 +13,6 @@ export const routes: RouteRecordRaw[] = [
 ]
 
 export default createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('website-nav'),
   routes,
 })
