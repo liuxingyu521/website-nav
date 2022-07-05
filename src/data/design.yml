@@ -1,0 +1,13 @@
+title: 设计相关
+icon: fa-paint-brush
+subMenu:
+  - title: icon图标
+    links:
+      - title: icones
+        description: 各种类型的icon图标，供代码中引用
+        url: 'https://icones.js.org/'
+        logo: icones.png
+      - title: flaticon
+        description: 免费下载icon和贴纸
+        url: 'https://www.flaticon.com/'
+        logo: flaticon.png

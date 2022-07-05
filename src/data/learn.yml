@@ -1,0 +1,13 @@
+title: 学习资源
+icon: fa-book
+subMenu:
+  - title: RSS 相关
+    links:
+      - title: RSSHub
+        description: 开源、简单易用、易于扩展的 RSS 生成器
+        url: 'https://docs.rsshub.app/'
+        logo: rsshub.png
+      - title: feedly
+        description: rss 订阅源在线阅读，主动关心感兴趣的信息流
+        url: 'https://feedly.com'
+        logo: feedly.png

@@ -1,0 +1,38 @@
+{
+  "name": "nav",
+  "version": "1.0.0",
+  "packageManager": "pnpm@7.1.0",
+  "description": "a collection of used website navigation",
+  "author": "liuxingyu521",
+  "license": "MIT",
+  "repository": "https://github.com/liuxingyu521/nav",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@originjs/vite-plugin-content": "^1.0.1",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "less": "^4.1.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,yml,vue}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+title: 实用工具
+icon: fa-wrench
+subMenu:
+  - title: 网站相关
+    links:
+      - title: 站长工具
+        description: 站长常用工具，提供 seo/ip/域名/网速/友情链接/权重等查询服务
+        url: 'https://tool.chinaz.com/Tools/Unicode.aspx'
+        logo: chinaz.png
+  - title: 生成相关
+    links:
+      - title: Carbon
+        description: 制作美化后的代码片段图像，支持各类语言
+        url: 'https://carbon.now.sh/'
+        logo: carbon.png
+      - title: shields 徽章
+        description: 制作各种状态的徽章，比如版本，构建状态，测试状态等
+        url: 'https://shields.io/'
+        logo: shields-io.svg
+      - title: css 动画生成
+        description: 'css3动画工具,css3动画效果,Css3动画参考'
+        url: 'https://www.w3cways.com/css3-animation-tool'
+        logo: ''
+      - title: looka
+        description: 在线生成logo的工具，有多种样式可供选择
+        url: 'https://looka.com/'
+        logo: looka.png
+      - title: codelf
+        description: 变量命名神器，根据输入的名称返回合理的变量命名列表
+        url: 'https://unbug.github.io/codelf/'
+        logo: codelf.png
+  - title: 文件工具
+    links:
+      - title: tinypng
+        description: 在线图片压缩，批量压缩，WebP、PNG和JPEG图像优化50-80%
+        url: 'https://tinypng.com/'
+        logo: tinypng.png
+      - title: Optimizilla
+        description: 图片压缩，可调节压缩质量
+        url: 'https://imagecompressor.com/zh/'
+        logo: optimizilla.png
+      - title: youcompress
+        description: '各种类型文件的压缩，MP4, MOV, MP3, PDF, PNG, JPG, JPEG, GIF'
+        url: 'https://www.youcompress.com/'
+        logo: ''
+      - title: onlineconvertfree
+        description: 在线转换文件格式，又免费又快
+        url: 'https://www.youcompress.com/'
+        logo: onlineconvertfree.png
+      - title: docsmall
+        description: jpg/png/gif/pdf 压缩，pdf合并，pdf分割
+        url: 'https://docsmall.com/image-compress'
+        logo: docsmall.png
+      - title: PDF 派
+        description: pdf和其他文件类型互相转换的工具，无限次使用，永久免费
+        url: 'https://www.pdfpai.com/'
+        logo: pdf-pai.png
+      - title: SVG 编辑器
+        description: 编辑/导出 svg
+        url: 'https://c.runoob.com/more/svgeditor/'
+        logo: svg-editor.png
+  - title: 演示工具
+    links:
+      - title: 演说
+        description: '在线创作&展示 ppt 文稿'
+        url: 'https://yanshuo.io/'
+        logo: yanshuo.png
+  - title: 开发工具
+    links:
+      - title: 在线工具 tool
+        description: '在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,字帖,田字格,进制转换,二维码,正则表达式,json格式化,照片压缩,pdf合并,favicon制作'
+        url: 'https://tool.lu/'
+        logo: tool-lu.png
+      - title: 草料二维码
+        description: 免费制作出能高效解决业务问题的二维码
+        url: 'http://cli.im/'
+        logo: caoliao.png
+      - title: bejson
+        description: '在线,JSON,JSON 校验,格式化,xml转json,cron表达式 工具'
+        url: 'https://www.bejson.com/'
+        logo: bejson.png
+      - title: 在线工具 atool
+        description: 'aTool,工具,在线工具,工具大全,微博热图生成工具,在线多媒体工具,站长工具,站长SEO工具,开发辅助工具'
+        url: 'https://www.atool99.com/'
+        logo: atool.png
+      - title: 简数 mock 数据
+        description: mock 地图数据、jsonp数据、mockjs模板数据接口
+        url: 'https://data.jianshukeji.com/index.html'
+        logo: jianshu-mock.png
+      - title: 菜鸟工具
+        description: 为开发设计人员提供在线工具。致力于打造国内专业WEB开发工具，集成开发环境，WEB开发教程
+        url: 'https://c.runoob.com/'
+        logo: ''
+      - title: 脚本之家工具库
+        description: 常用参考对照表，颜色、编码转换、便民查询、站长相关工具
+        url: 'http://tools.jb51.net/table'
+        logo: ''
+      - title: mocky
+        description: '在线生成&管理mock数据接口'
+        url: 'https://designer.mocky.io/'
+        logo: mocky.png
+      - title: 实用工具箱
+        description: 'js代码格式化,css代码格式化,js代码格式化,加密解密工具,图片处理,图片裁剪,在线二维码生成等各类在线工具'
+        url: 'https://www.idcd.com/tool'
+        logo: idcd-tool.png
+      - title: picsum 占位图
+        description: 提供各种风格的占位图片，可设置宽高、灰度、模糊等效果
+        url: 'https://picsum.photos/'
+        logo: picsum.png
+      - title: 油猴中文网
+        description: 提供免费油猴脚本插件下载工具
+        url: 'https://bbs.tampermonkey.net.cn/'
+        logo: ''
+  - title: 代码运行
+    links:
+      - title: jsrun
+        description: 在线运行代码，分享，打包代码包
+        url: 'https://jsrun.net/'
+        logo: jsrun.png
+      - title: JShare
+        description: 一个在线代码测试、托管、分享的工具
+        url: 'https://jshare.com.cn'
+        logo: ''
+  - title: 其他工具
+    links:
+      - title: cmd markdown编辑器
+        description: 作业帮在线 Markdown 编辑阅读器，支持实时同步预览，区分写作和阅读模式，支持在线存储，分享文稿网址。
+        url: 'https://www.zybuluo.com/mdeditor'
+        logo: cmd-markdown.png
+      - title: mdnice
+        description: 一款 Markdown 微信编辑器，海量主题样式、免费的图床，提供文章一键排版，同时支持知乎、掘金、微信订阅号等多个平台。
+        url: 'https://editor.mdnice.com/'
+        logo: mdnice.png
+      - title: IFTTT
+        description: if this than that. 自动化处理各个软件平台间的事件流
+        url: 'https://ifttt.com/'
+        logo: ifttt.png
+      - title: asciinema
+        description: 录制终端会话，并且可以在web上共享，可复制的命令行展示
+        url: 'https://asciinema.org/'
+        logo: asciinema.png
+      - title: 求字体
+        description: 字体下载-提供中文和英文字体库下载、识别与预览服务，找字体的好帮手
+        url: 'https://www.qiuziti.com/'
+        logo: qiuziti.png
