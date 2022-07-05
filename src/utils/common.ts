@@ -5,5 +5,5 @@ export function isDev() {
 
 /** 获取应用路径前缀 */
 export function getAppPrefix() {
-  return isDev() ? '' : 'website-nav'
+  return isDev() ? '' : '/website-nav'
 }
