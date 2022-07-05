@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="308" height="29" viewBox="0 0 308 29">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#99CD1B"/>
+            <stop offset="100%" stop-color="#82B30B"/>
+        </linearGradient>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#36B8F2"/>
+            <stop offset="100%" stop-color="#0E97D4"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <rect width="21.66" height="21.66" y="7.22" fill="url(#a)" rx="5.145"/>
+            <rect width="21.66" height="21.66" x="14.44" fill="url(#b)" rx="5.145"/>
+            <path fill="#FFF" d="M21.794 7.473c-7.53 1.083-10.765 6.458-11.838 11.84 2.68-3.768 6.455-5.487 11.838-5.487v4.412l7.537-7.534-7.537-7.538v4.307z"/>
+        </g>
+        <text fill="#40454B" font-family="Ubuntu, Helvetica, sans-serif" font-size="24.44" font-weight="bold">
+            <tspan x="43.091" y="23.643">onlineconvertfree.com</tspan>
+        </text>
+    </g>
+</svg>
