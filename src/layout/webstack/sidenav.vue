@@ -31,15 +31,10 @@ const goToAnchor = (id: string) => {
   emit('update:isActive', false)
 
   const target = document.getElementById(id)
-  console.log('target: ', target)
 
-  target?.scrollIntoView({
-    behavior: 'smooth',
-  })
-
-  setTimeout(() => {
-    location.hash = id
-  }, 500)
+  document
+    .querySelector('.nav-container')
+    ?.scrollTo({ top: (target?.offsetTop || 0) - 40, behavior: 'smooth' })
 }
 
 const toggleExpand = (menu: any) => {
