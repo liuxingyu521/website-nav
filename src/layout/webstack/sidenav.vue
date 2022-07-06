@@ -34,7 +34,7 @@ const goToAnchor = (id: string) => {
 
   document
     .querySelector('.nav-container')
-    ?.scrollTo({ top: (target?.offsetTop || 0) - 40, behavior: 'smooth' })
+    ?.scrollTo({ top: (target?.offsetTop || 0) - 30, behavior: 'smooth' })
 }
 
 const toggleExpand = (menu: any) => {

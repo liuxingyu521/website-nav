@@ -5,6 +5,7 @@ import SideNav from './sidenav.vue'
 import NavSection from './nav-section.vue'
 import About from './about.vue'
 import Footer from './footer.vue'
+import Search from '@/components/search/index.vue'
 
 const props = defineProps({
   menus: {
@@ -40,9 +41,12 @@ const sideMenus = props.menus.concat({
   <div class="nav-container">
     <div class="nav-container__top">
       <Logo />
-      <span class="menu" @click="toggleSideNav">
-        <i class="fa-bars fa-lg" />
-      </span>
+      <div class="nav-container__top-right">
+        <Search />
+        <span class="menu" @click="toggleSideNav">
+          <i class="fa-bars fa-lg" />
+        </span>
+      </div>
     </div>
     <NavSection
       v-for="section in navSections"
@@ -91,6 +95,11 @@ const sideMenus = props.menus.concat({
 
     @media (max-width: 1000px) {
       opacity: 1;
+    }
+
+    &-right {
+      display: inline-flex;
+      gap: 0 10px;
     }
   }
 
