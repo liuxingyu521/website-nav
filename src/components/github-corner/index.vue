@@ -5,8 +5,6 @@
     aria-label="View source on GitHub"
   >
     <svg
-      width="80"
-      height="80"
       viewBox="0 0 250 250"
       style="
         fill: #151513;
@@ -58,6 +56,17 @@
   }
   .github-corner .octo-arm {
     animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+.github-corner svg {
+  width: 80px;
+  height: 80px;
+}
+@media (max-width: 1000px) {
+  .github-corner svg {
+    width: 30px;
+    height: 30px;
   }
 }
 </style>
