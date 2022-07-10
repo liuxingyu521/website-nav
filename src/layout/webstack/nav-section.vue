@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { getAppPrefix } from '@/utils/common'
+import LazyloadImage from '@/components/lazyload-image/index.vue'
 
 defineProps({
   section: {
@@ -25,11 +26,14 @@ const appPrefix = getAppPrefix()
       >
         <a :href="link.url" target="_blank">
           <div class="nav-section__item__left">
-            <img
-              v-if="link.logo"
-              :src="`${appPrefix}/assets/logos/${link.logo}`"
+            <LazyloadImage
+              :src="
+                link.logo
+                  ? `${appPrefix}/assets/logos/${link.logo}`
+                  : '/default-link.png'
+              "
+              :alt="link.title"
             />
-            <img v-else src="/default-link.png" />
           </div>
           <div class="nav-section__item__right">
             <h3 class="nav-section__item__right__title">{{ link.title }}</h3>
