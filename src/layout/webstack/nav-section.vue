@@ -30,7 +30,7 @@ const appPrefix = getAppPrefix()
               :src="
                 link.logo
                   ? `${appPrefix}/assets/logos/${link.logo}`
-                  : '/default-link.png'
+                  : `${appPrefix}/default-link.png`
               "
               :alt="link.title"
             />
