@@ -5,9 +5,13 @@ withDefaults(
   defineProps<{
     src: string
     alt?: string
+    defaultSrc?: string
   }>(),
   {
     alt: 'img',
+    // 默认灰色背景
+    defaultSrc:
+      'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWAQMAAAAGz+OhAAAAA1BMVEXu7u6DSdFtAAAAGklEQVRIx+3BMQEAAADCIPuntsYOYAAAQN4BC7gAAY4I5JIAAAAASUVORK5CYII=',
   }
 )
 
@@ -30,5 +34,17 @@ onMounted(() => {
 </script>
 
 <template>
-  <img ref="lazyImageRef" src="" :alt="alt" :data-img-src="src" />
+  <img
+    ref="lazyImageRef"
+    class="lazy-img"
+    :src="defaultSrc"
+    :alt="alt"
+    :data-img-src="src"
+  />
 </template>
+
+<style>
+.lazy-img {
+  aspect-ratio: 1/1;
+}
+</style>

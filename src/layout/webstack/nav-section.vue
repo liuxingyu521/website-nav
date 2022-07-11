@@ -33,6 +33,7 @@ const appPrefix = getAppPrefix()
                   : `${appPrefix}/default-link.png`
               "
               :alt="link.title"
+              :default-src="`${appPrefix}/default-link.png`"
             />
           </div>
           <div class="nav-section__item__right">
