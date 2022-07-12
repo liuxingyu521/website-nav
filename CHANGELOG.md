@@ -2,6 +2,10 @@
 
 No unreleased changes.
 
+## 1.0.2
+
+No unreleased changes.
+
 ## 1.0.1
 
 - chore: echo test
