@@ -11,7 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "test": "echo test"
   },
   "dependencies": {
     "vue": "^3.2.37"
