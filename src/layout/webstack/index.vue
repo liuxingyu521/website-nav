@@ -6,6 +6,7 @@ import NavSection from './nav-section.vue'
 import About from './about.vue'
 import Footer from './footer.vue'
 import Search from '@/components/search/index.vue'
+import Feedback from '@/components/feedback/index.vue'
 
 const props = defineProps({
   menus: {
@@ -54,6 +55,7 @@ const sideMenus = props.menus.concat({
       :section="section"
     />
     <About />
+    <Feedback />
     <Footer />
   </div>
   <div

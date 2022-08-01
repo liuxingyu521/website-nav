@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { ILink } from '@/data'
-import { AllLinks } from '@/data'
+import type { ILink } from '@/config/websites'
+import { AllLinks } from '@/config/websites'
 
 const isShow = ref(false)
 const searchValue = ref()
