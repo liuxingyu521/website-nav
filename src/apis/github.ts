@@ -41,7 +41,7 @@ async function createWebsite(websiteInfo: {
 
   const { error } = await useFetch(url, {
     headers: {
-      auth_token: githubAccessToken.value,
+      'auth-token': githubAccessToken.value,
     },
   })
     .post({
