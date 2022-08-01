@@ -13,7 +13,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["vite/client"]
+    "types": ["vite/client", "element-plus/global"]
   },
-  "include": ["src/**/*", "src/data/*", "shims.d.ts"]
+  "include": ["src/**/*", "src/config/data/*", "shims.d.ts"]
 }
