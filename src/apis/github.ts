@@ -46,6 +46,7 @@ async function createWebsite(websiteInfo: {
   })
     .post({
       content: markdownText,
+      title: websiteInfo.title,
       type: 'nav',
     })
     .json()
