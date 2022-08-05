@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="./public/logo.png" alt="website-nave-logo">
+  <a href="https://liuxingyu521.github.io/website-nav" target="_blank">
+    <img src="./public/logo.png" alt="website-nave-logo">
+  </a>
 </p>
+
+![Build and Deploy](https://github.com/liuxingyu521/website-nav/actions/workflows/deploy.yml/badge.svg)
 
 # Website nav
 
