@@ -12,6 +12,10 @@
 
 **网站持续收录ing...**
 
+## 预览
+
+![website-nav screenshot](./website-nav.screenshot.png)
+
 ## 项目开发
 
 本项目基于 vue3 + vite2 搭建，开发流程如下
