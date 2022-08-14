@@ -29,6 +29,14 @@ subMenu:
         description: 变量命名神器，根据输入的名称返回合理的变量命名列表
         url: 'https://unbug.github.io/codelf/'
         logo: codelf.png
+      - title: gitignore.io
+        description: 根据操作系统/IDE/编程语言等来生成相应的 .gitignore 内容
+        url: https://www.toptal.com/developers/gitignore
+        logo: ''
+      - title: lastpass 密码生成器
+        description: 随机生成密码，各种字符数字组合
+        url: https://www.lastpass.com/features/password-generator
+        logo: ''
   - title: 文件工具
     links:
       - title: tinypng
@@ -143,3 +151,7 @@ subMenu:
         description: 字体下载-提供中文和英文字体库下载、识别与预览服务，找字体的好帮手
         url: 'https://www.qiuziti.com/'
         logo: qiuziti.png
+      - title: Flag counter
+        description: 免费统计页面被访问过的国家数量，并以旗帜展示
+        url: https://www.flagcounter.com/index.html
+        logo: ''
