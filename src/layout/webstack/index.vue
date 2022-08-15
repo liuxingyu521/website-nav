@@ -41,8 +41,11 @@ const sideMenus = props.menus.concat({
   <SideNav v-model:isActive="isSideNavActive" :menus="sideMenus" />
   <div class="nav-container">
     <div class="nav-container__top">
+      <Search />
+    </div>
+    <div class="nav-container__top--mobile">
       <Logo />
-      <div class="nav-container__top-right">
+      <div class="nav-container__top--mobile-right">
         <Search />
         <span class="menu" @click="toggleSideNav">
           <i class="fa-bars fa-lg" />
@@ -83,20 +86,34 @@ const sideMenus = props.menus.concat({
 
   &__top {
     position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .search {
+      color: #333;
+    }
+  }
+
+  &__top--mobile {
+    position: absolute;
     height: 90px;
     top: 0;
     left: 0;
     width: 100%;
     background: #2c2e2f;
-    display: flex;
     padding: 0 30px;
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease-in-out;
-    opacity: 0;
+    display: none;
 
     @media (max-width: 1000px) {
-      opacity: 1;
+      display: flex;
     }
 
     &-right {

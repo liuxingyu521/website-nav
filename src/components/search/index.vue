@@ -32,7 +32,7 @@ const handleOpenLink = (link: ILink) => {
 </script>
 
 <template>
-  <span class="search" @click="handleOpenSearch"
+  <span class="search" title="站内搜索" @click="handleOpenSearch"
     ><i class="fa-search"></i
   ></span>
 
@@ -81,6 +81,7 @@ const handleOpenLink = (link: ILink) => {
   justify-content: center;
   border-radius: 50%;
   font-size: 15px;
+  cursor: pointer;
   &:hover {
     background: rgba(255, 255, 255, 0.1);
   }
