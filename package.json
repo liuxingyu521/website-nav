@@ -1,6 +1,6 @@
 {
   "name": "nav",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "packageManager": "pnpm@7.8.0",
   "description": "a collection of used website navigation",
   "author": "liuxingyu521",
@@ -11,7 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "release:dry": "npx bumpp --no-push"
   },
   "dependencies": {
     "@vueuse/core": "^9.0.0",
