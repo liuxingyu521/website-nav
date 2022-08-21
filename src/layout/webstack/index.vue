@@ -7,6 +7,7 @@ import About from './about.vue'
 import Footer from './footer.vue'
 import Search from '@/components/search/index.vue'
 import Feedback from '@/components/feedback/index.vue'
+import { isSmallScreen } from '@/composables/media-query'
 
 const props = defineProps({
   menus: {
@@ -40,10 +41,10 @@ const sideMenus = props.menus.concat({
 <template>
   <SideNav v-model:isActive="isSideNavActive" :menus="sideMenus" />
   <div class="nav-container">
-    <div class="nav-container__top">
-      <Search />
-    </div>
-    <div class="nav-container__top--mobile">
+    <div
+      v-if="isSmallScreen"
+      class="nav-container__top nav-container__top--mobile"
+    >
       <Logo />
       <div class="nav-container__top--mobile-right">
         <Search />
@@ -51,6 +52,15 @@ const sideMenus = props.menus.concat({
           <i class="fa-bars fa-lg" />
         </span>
       </div>
+    </div>
+    <div v-else class="nav-container__top">
+      <Search>
+        <div class="nav-container__top-search">
+          <i class="fa-search" style="margin: 3px 10px 0 0"></i>
+          <span style="margin-top: 4px">站内搜索</span>
+          <span class="nav-container__top-search__shortcut">/</span>
+        </div>
+      </Search>
     </div>
     <NavSection
       v-for="section in navSections"
@@ -94,8 +104,34 @@ const sideMenus = props.menus.concat({
     align-items: center;
     width: 100%;
 
-    .search {
-      color: #333;
+    &-search {
+      padding: 0 10px 0 12px;
+      height: 40px;
+      display: inline-flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 6px;
+      color: rgba(60, 60, 60, 0.7);
+      border: 1px solid transparent;
+      transition: border 0.4s ease;
+      box-shadow: 0 0 2px 1px #eee;
+
+      &:hover {
+        border: 1px solid #00a1df;
+        cursor: pointer;
+      }
+
+      &__shortcut {
+        margin: 1px 0 0 20px;
+        display: inline-flex;
+        align-items: center;
+        padding: 2px 7px;
+        background: #eee;
+        border-radius: 4px;
+        font-weight: 500;
+        box-shadow: inset 0 -2px 0 0 #cdcde6, inset 0 0 1px 1px #fff,
+          0 1px 2px 1px rgb(30 35 90 / 40%);
+      }
     }
   }
 
@@ -110,11 +146,6 @@ const sideMenus = props.menus.concat({
     justify-content: space-between;
     align-items: center;
     transition: all 0.5s ease-in-out;
-    display: none;
-
-    @media (max-width: 1000px) {
-      display: flex;
-    }
 
     &-right {
       display: inline-flex;

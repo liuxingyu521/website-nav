@@ -12,7 +12,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "prepare": "npx husky install",
-    "release:dry": "npx bumpp --no-push"
+    "release": "npx bumpp"
   },
   "dependencies": {
     "@vueuse/core": "^9.0.0",

@@ -11,7 +11,7 @@ function goAuthorize() {
   window.location.href = url
 }
 
-/** 获取 githubtoken */
+/** 获取 githubToken */
 async function getAccessToken(code: string) {
   const url = isDev()
     ? `http://localhost:7001/github/access-token?code=${code}&type=nav`

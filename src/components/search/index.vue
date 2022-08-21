@@ -1,16 +1,22 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { nextTick, ref, watch } from 'vue'
+import { useMagicKeys } from '@vueuse/core'
 import type { ILink } from '@/config/websites'
 import { AllLinks } from '@/config/websites'
 
 const isShow = ref(false)
 const searchValue = ref()
 const searchResults = ref<ILink[]>([])
+const inputRef = ref()
 
 const handleOpenSearch = () => {
-  isShow.value = true
   searchResults.value = []
   searchValue.value = ''
+  isShow.value = true
+
+  setTimeout(() => {
+    inputRef.value.focus()
+  }, 0)
 }
 
 const handleSearch = (e: any) => {
@@ -29,12 +35,32 @@ const handleSearch = (e: any) => {
 const handleOpenLink = (link: ILink) => {
   window.open(link.url)
 }
+
+const { escape, slash } = useMagicKeys()
+
+/** esc 退出搜索 */
+watch(escape, (isClickedESC) => {
+  if (isClickedESC) {
+    isShow.value = false
+  }
+})
+
+/** 搜索快捷键 '/' */
+watch(slash, (isClickSlash) => {
+  if (isClickSlash && !isShow.value) {
+    handleOpenSearch()
+  }
+})
 </script>
 
 <template>
-  <span class="search" title="站内搜索" @click="handleOpenSearch"
-    ><i class="fa-search"></i
-  ></span>
+  <span title="站内搜索" @click="handleOpenSearch">
+    <slot>
+      <span class="search">
+        <i class="fa-search"></i>
+      </span>
+    </slot>
+  </span>
 
   <Teleport to="body">
     <Transition name="modal">
@@ -42,6 +68,7 @@ const handleOpenLink = (link: ILink) => {
         <div class="modal-container" @click.stop>
           <div class="modal-header">
             <input
+              ref="inputRef"
               v-model="searchValue"
               placeholder="站内搜索关键词"
               class="modal-header__input"
