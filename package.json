@@ -1,6 +1,6 @@
 {
   "name": "nav",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "packageManager": "pnpm@7.8.0",
   "description": "a collection of used website navigation",
   "author": "liuxingyu521",
