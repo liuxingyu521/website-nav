@@ -26,8 +26,7 @@ const handleSearch = (e: any) => {
     value.length > 0
       ? AllLinks.filter(
           (item) =>
-            value &&
-            (item.description.includes(value) || item.title.includes(value))
+            item.description.includes(value) || item.title.includes(value)
         )
       : []
 }
@@ -82,8 +81,9 @@ watch(slash, (isClickSlash) => {
           <div class="modal-body search-result">
             <div
               v-for="(item, i) in searchResults"
-              :key="item.url"
+              :key="Math.random() + i"
               class="search-result__item"
+              :title="item.url"
               @click="handleOpenLink(item)"
             >
               <div class="search-result__item-title">
