@@ -58,7 +58,7 @@ const sideMenus = props.menus.concat({
         <div class="nav-container__top-search">
           <i class="fa-search" style="margin: 3px 10px 0 0"></i>
           <span style="margin-top: 4px">站内搜索</span>
-          <span class="nav-container__top-search__shortcut">/</span>
+          <span class="nav-container__top-search__shortcut"> ⌘ K </span>
         </div>
       </Search>
     </div>
@@ -125,7 +125,7 @@ const sideMenus = props.menus.concat({
         margin: 1px 0 0 20px;
         display: inline-flex;
         align-items: center;
-        padding: 2px 7px;
+        padding: 3px;
         background: #eee;
         border-radius: 4px;
         font-weight: 500;

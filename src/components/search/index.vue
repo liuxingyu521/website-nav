@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { nextTick, ref, watch } from 'vue'
+import { ref, watch } from 'vue'
 import { useMagicKeys } from '@vueuse/core'
 import type { ILink } from '@/config/websites'
 import { AllLinks } from '@/config/websites'
@@ -35,7 +35,7 @@ const handleOpenLink = (link: ILink) => {
   window.open(link.url)
 }
 
-const { escape, slash } = useMagicKeys()
+const { escape, meta_k } = useMagicKeys()
 
 /** esc 退出搜索 */
 watch(escape, (isClickedESC) => {
@@ -45,8 +45,8 @@ watch(escape, (isClickedESC) => {
 })
 
 /** 搜索快捷键 '/' */
-watch(slash, (isClickSlash) => {
-  if (isClickSlash && !isShow.value) {
+watch(meta_k, (isClickMetaK) => {
+  if (isClickMetaK && !isShow.value) {
     handleOpenSearch()
   }
 })
