@@ -1,6 +1,16 @@
 title: 前端相关
 icon: fa-html5
 subMenu:
+  - title: css 相关
+    links:
+      - title: css 动画工具
+        description: 'css3动画工具,css3动画效果,Css3动画参考'
+        url: 'https://www.w3cways.com/css3-animation-tool'
+        logo: ''
+      - title: animista - css animation
+        description: 提供了一系列预设的动画
+        url: 'https://animista.net/play/basic'
+        logo: ''
   - title: 技术指引
     links:
       - title: google developer - web
@@ -23,6 +33,14 @@ subMenu:
         description: 一个行业标准JavaScript动画库，可以制作出在每个主要浏览器中都能工作的高性能动画。
         url: 'https://greensock.com/'
         logo: greensock.png
+      - title: framer - motion 动画控制库
+        description: Framer Motion is a production-ready React animation and gesture library.
+        url: https://www.framer.com/motion/
+        logo: ''
+      - title: vue motion 动画库
+        description: 结合 vueuse 使用的动画库
+        url: https://motion.vueuse.org/
+        logo: ''
       - title: MDX
         description: markdown 中通过 jsx 渲染组件，组件中插入 markdown
         url: 'https://mdxjs.com/docs/'

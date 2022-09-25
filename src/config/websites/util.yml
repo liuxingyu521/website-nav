@@ -17,10 +17,6 @@ subMenu:
         description: 制作各种状态的徽章，比如版本，构建状态，测试状态等
         url: 'https://shields.io/'
         logo: shields-io.svg
-      - title: css 动画生成
-        description: 'css3动画工具,css3动画效果,Css3动画参考'
-        url: 'https://www.w3cways.com/css3-animation-tool'
-        logo: ''
       - title: looka
         description: 在线生成logo的工具，有多种样式可供选择
         url: 'https://looka.com/'
@@ -36,6 +32,10 @@ subMenu:
       - title: lastpass 密码生成器
         description: 随机生成密码，各种字符数字组合
         url: https://www.lastpass.com/features/password-generator
+        logo: ''
+      - title: gh-profile-readme-generator
+        description: 快速生成丰富的 Github README 个人介绍页
+        url: https://rahuldkjain.github.io/gh-profile-readme-generator/
         logo: ''
   - title: 文件工具
     links:
@@ -67,6 +67,10 @@ subMenu:
         description: 编辑/导出 svg
         url: 'https://c.runoob.com/more/svgeditor/'
         logo: svg-editor.png
+      - title: svgo
+        description: 优化 svg 代码的工具，去掉冗余的字符
+        url: 'https://github.com/svg/svgo'
+        logo: ''
   - title: 演示工具
     links:
       - title: 演说
@@ -154,4 +158,24 @@ subMenu:
       - title: Flag counter
         description: 免费统计页面被访问过的国家数量，并以旗帜展示
         url: https://www.flagcounter.com/index.html
+        logo: ''
+      - title: jsdocs npm包文档
+        description: 解析npm包，并展示相关导出可用方法的站点
+        url: https://www.jsdocs.io/
+        logo: ''
+      - title: gitter.im
+        description: 开发者在线沟通的聊天室
+        url: https://gitter.im/
+        logo: ''
+      - title: font-source
+        description: 引用开源字体库
+        url: https://fontsource.org/
+        logo: ''
+      - title: ossinsight
+        description: 分析Github开源项目，数据+视图
+        url: https://ossinsight.io/
+        logo: ''
+      - title: chatwoot
+        description: 开源的在线聊天应用，可用作客服
+        url: https://www.chatwoot.com/
         logo: ''

@@ -11,3 +11,9 @@ subMenu:
         description: 免费下载icon和贴纸
         url: 'https://www.flaticon.com/'
         logo: flaticon.png
+  - title: 设计网站
+    links:
+      - title: 优优网
+        description: 网页灵感采集、网页模板、设计相关
+        url: https://uiiiuiii.com/inspirations/ui
+        logo: ''
