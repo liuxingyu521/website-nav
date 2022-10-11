@@ -5,8 +5,8 @@ import { isDev } from '@/utils/common'
 /** github oauth2 */
 function goAuthorize() {
   const url = isDev()
-    ? 'http://localhost:7001/github/authorize?type=nav'
-    : 'http://api.xuer.tech/github/authorize?type=nav'
+    ? '//localhost:7001/github/authorize?type=nav'
+    : '//api.xuer.tech/github/authorize?type=nav'
 
   window.location.href = url
 }
@@ -14,8 +14,8 @@ function goAuthorize() {
 /** 获取 githubToken */
 async function getAccessToken(code: string) {
   const url = isDev()
-    ? `http://localhost:7001/github/access-token?code=${code}&type=nav`
-    : `https://api.xuer.tech/github/access-token?code=${code}&type=nav`
+    ? `//localhost:7001/github/access-token?code=${code}&type=nav`
+    : `//api.xuer.tech/github/access-token?code=${code}&type=nav`
 
   const res = await fetch(url).then((res) => res.json())
 
@@ -36,8 +36,8 @@ async function createWebsite(websiteInfo: {
   `
 
   const url = isDev()
-    ? 'http://localhost:7001/github/website'
-    : 'https://api.xuer.tech/github/website'
+    ? '//localhost:7001/github/website'
+    : '//api.xuer.tech/github/website'
 
   const { error } = await useFetch(url, {
     headers: {

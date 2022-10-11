@@ -188,3 +188,4 @@ test/
 # End of https://www.toptal.com/developers/gitignore/api/macos,vue,node
 
 dist/
+stats.html

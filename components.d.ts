@@ -11,7 +11,6 @@ declare module '@vue/runtime-core' {
     ElForm: typeof import('element-plus/es')['ElForm']
     ElFormItem: typeof import('element-plus/es')['ElFormItem']
     ElInput: typeof import('element-plus/es')['ElInput']
-    ElTextarea: typeof import('element-plus/es')['ElTextarea']
     Feedback: typeof import('./src/components/feedback/index.vue')['default']
     GithubCorner: typeof import('./src/components/github-corner/index.vue')['default']
     LazyloadImage: typeof import('./src/components/lazyload-image/index.vue')['default']

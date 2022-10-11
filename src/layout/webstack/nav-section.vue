@@ -26,15 +26,17 @@ const appPrefix = getAppPrefix()
       >
         <a :href="link.url" target="_blank">
           <div class="nav-section__item__left">
-            <LazyloadImage
-              :src="
-                link.logo
-                  ? `${appPrefix}/assets/logos/${link.logo}`
-                  : `${appPrefix}/default-link.png`
-              "
-              :alt="link.title"
-              :default-src="`${appPrefix}/default-link.png`"
-            />
+            <client-only>
+              <LazyloadImage
+                :src="
+                  link.logo
+                    ? `${appPrefix}/assets/logos/${link.logo}`
+                    : `${appPrefix}/default-link.png`
+                "
+                :alt="link.title"
+                :default-src="`${appPrefix}/default-link.png`"
+              />
+            </client-only>
           </div>
           <div class="nav-section__item__right">
             <h3 class="nav-section__item__right__title">{{ link.title }}</h3>

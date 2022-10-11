@@ -5,6 +5,7 @@ import content from '@originjs/vite-plugin-content'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import { visualizer } from 'rollup-plugin-visualizer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -35,8 +36,12 @@ export default defineConfig({
     Components({
       resolvers: [ElementPlusResolver()],
     }),
+    visualizer(),
   ],
   server: {
     port: 3000,
+  },
+  ssr: {
+    noExternal: ['element-plus'],
   },
 })

@@ -1,8 +1,8 @@
-import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg/single-page'
 import App from './app.vue'
 
-import './github-access-init'
-
-const app = createApp(App)
-
-app.mount('#app')
+export const createApp = ViteSSG(App, ({ isClient }) => {
+  if (isClient) {
+    import('./github-access-init')
+  }
+})
