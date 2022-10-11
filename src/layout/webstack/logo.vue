@@ -4,14 +4,7 @@
 
 <template>
   <div class="logo">
-    <!-- <div class="logo--main">
-      <i class="icon-lianjie" style="margin-right: 8px;"></i>
-      Website Nav
-    </div>
-    <div class="logo--desc">实用网址导航</div> -->
-    <a>
-      <img src="/logo.png" />
-    </a>
+    <img src="/logo.png" width="197" height="80" alt="website-nav-logo" />
   </div>
 </template>
 

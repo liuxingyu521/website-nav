@@ -81,7 +81,10 @@ function leave(el: HTMLElement, done: Function) {
     <ul class="sidenav__list">
       <li v-for="menu in innerMenus" :key="menu.title">
         <template v-if="menu.subMenu">
-          <a class="multiple" @click="toggleExpand(menu)">
+          <span
+            class="sidenav__list__item multiple"
+            @click="toggleExpand(menu)"
+          >
             <span>
               <i class="fam" :class="[menu.icon || 'fa-bookmark-o']"></i>
               <span>{{ menu.title }}</span>
@@ -90,7 +93,7 @@ function leave(el: HTMLElement, done: Function) {
               class="arrow fa fa-angle-right"
               :class="[menu.isExpand ? 'arrow--expand' : '']"
             ></span>
-          </a>
+          </span>
           <transition
             :css="false"
             @enter="enter"
@@ -105,22 +108,25 @@ function leave(el: HTMLElement, done: Function) {
                   '--offset-width': `-${index * 20 + 20}px`,
                 }"
               >
-                <a class="link" @click="goToAnchor(m.title.replace(/\s/, '_'))">
+                <span
+                  class="sidenav__list__item"
+                  @click="goToAnchor(m.title.replace(/\s/, '_'))"
+                >
                   <span>{{ m.title }}</span>
-                </a>
+                </span>
               </li>
             </ul>
           </transition>
         </template>
 
-        <a
+        <span
           v-else
-          class="link"
+          class="sidenav__list__item"
           @click="goToAnchor(menu.title.replace(/\s/, '_'))"
         >
           <i :class="menu.icon"></i>
           <span>{{ menu.title }}</span>
-        </a>
+        </span>
       </li>
     </ul>
   </div>
@@ -180,7 +186,7 @@ function leave(el: HTMLElement, done: Function) {
     list-style: none;
     flex: 1;
 
-    a {
+    &__item {
       color: #979898;
       text-decoration: none;
       display: block;
