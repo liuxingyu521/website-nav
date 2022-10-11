@@ -1,7 +1,8 @@
 <template>
   <a
-    href="https://github.com/liuxingyu521"
+    href="https://github.com/liuxingyu521/website-nav"
     class="github-corner"
+    target="_blank"
     aria-label="View source on GitHub"
   >
     <svg
