@@ -22,7 +22,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "@liuxingyu521/eslint-config": "^1.0.3",
+    "@liuxingyu521/eslint-config": "^1.0.4",
     "@originjs/vite-plugin-content": "1.0.1",
     "@vitejs/plugin-vue": "3.0.1",
     "@vueuse/head": "^0.9.8",

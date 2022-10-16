@@ -5,15 +5,29 @@ subMenu:
     links:
       - title: icones
         description: 各种类型的icon图标，供代码中引用
-        url: 'https://icones.js.org/'
+        url: "https://icones.js.org/"
         logo: icones.png
       - title: flaticon
         description: 免费下载icon和贴纸
-        url: 'https://www.flaticon.com/'
+        url: "https://www.flaticon.com/"
         logo: flaticon.png
+      - title: icons
+        description: 收集了很多图标、插图、音乐、设计工具等
+        url: https://igoutu.cn/
+        logo: ""
   - title: 设计网站
     links:
       - title: 优优网
         description: 网页灵感采集、网页模板、设计相关
         url: https://uiiiuiii.com/inspirations/ui
-        logo: ''
+        logo: ""
+  - title: 设计资源
+    links:
+      - title: 中国色
+        description: 罗列了中国的传统色彩，界面过渡流畅治愈
+        url: http://zhongguose.com/
+        logo: ""
+      - title: 中国色彩
+        description: 罗列了中国的传统色彩，UI设计更加漂亮
+        url: https://chinese-colors.heyfe.org/
+        logo: ""

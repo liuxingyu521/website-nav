@@ -5,19 +5,19 @@ subMenu:
     links:
       - title: RSSHub
         description: 开源、简单易用、易于扩展的 RSS 生成器
-        url: 'https://docs.rsshub.app/'
+        url: "https://docs.rsshub.app/"
         logo: rsshub.png
       - title: feedly
         description: rss 订阅源在线阅读，主动关心感兴趣的信息流
-        url: 'https://feedly.com'
+        url: "https://feedly.com"
         logo: feedly.png
   - title: 知识输入
     links:
       - title: roadmap - 开发学习路线
         description: 开发人员推荐学习路线，各个领域知识面概括
         url: https://roadmap.sh/
-        logo: ''
+        logo: ""
       - title: patterns learning
         description: 在线学习设计模式（react、vue， etc..），也可以下载PDF阅读
         url: https://www.patterns.dev/
-        logo: ''
+        logo: ""
