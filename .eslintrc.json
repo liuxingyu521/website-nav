@@ -1,5 +1,5 @@
 {
-  "extends": ["@antfu", "plugin:prettier/recommended"],
+  "extends": ["@liuxingyu521"],
   "rules": {
     "no-console": "warn"
   }

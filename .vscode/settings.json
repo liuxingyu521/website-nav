@@ -3,5 +3,11 @@
     "source.fixAll.eslint": true
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "cSpell.words": ["changelogithub", "vueuse"]
+  "cSpell.words": [
+    "bumpp",
+    "changelogithub",
+    "originjs",
+    "unplugin",
+    "vueuse"
+  ]
 }
