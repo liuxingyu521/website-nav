@@ -191,3 +191,11 @@ subMenu:
         description: 在线查看分析npm包的大小及构成
         url: https://bundlephobia.com/
         logo: ""
+      - title: npmgraph
+        description: 查看npm包的拓扑关系图
+        url: https://npmgraph.js.org/
+        logo: ""
+      - title: emoji-cheat-sheet
+        description: emoji 格式符号速查表
+        url: https://www.webfx.com/tools/emoji-cheat-sheet/
+        logo: ""

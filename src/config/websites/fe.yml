@@ -49,6 +49,10 @@ subMenu:
         description: markdown 中通过 jsx 渲染组件，组件中插入 markdown
         url: "https://mdxjs.com/docs/"
         logo: mdx.png
+      - title: rrweb 录制网页
+        description: Web 录制与回放的工具库
+        url: https://www.rrweb.io/
+        logo: ""
   - title: 解决方案
     links:
       - title: 帆软BI（finebi）
