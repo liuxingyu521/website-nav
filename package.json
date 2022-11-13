@@ -24,7 +24,7 @@
   "devDependencies": {
     "@liuxingyu521/eslint-config": "^1.0.6",
     "@originjs/vite-plugin-content": "1.0.1",
-    "@vitejs/plugin-vue": "3.0.1",
+    "@vitejs/plugin-vue": "3.2.0",
     "@vueuse/head": "^0.9.8",
     "eslint": "8.25.0",
     "less": "4.1.3",
