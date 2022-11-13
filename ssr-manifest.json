@@ -230,6 +230,13 @@
     "/website-nav/assets/fontawesome-webfont.aa58f33f.ttf",
     "/website-nav/assets/fontawesome-webfont.ad615792.svg"
   ],
+  "src/config/websites/funny.yml": [
+    "/website-nav/assets/fontawesome-webfont.7bfcab6d.eot",
+    "/website-nav/assets/fontawesome-webfont.2adefcbc.woff2",
+    "/website-nav/assets/fontawesome-webfont.ba0c59de.woff",
+    "/website-nav/assets/fontawesome-webfont.aa58f33f.ttf",
+    "/website-nav/assets/fontawesome-webfont.ad615792.svg"
+  ],
   "src/config/websites/index.ts": [
     "/website-nav/assets/fontawesome-webfont.7bfcab6d.eot",
     "/website-nav/assets/fontawesome-webfont.2adefcbc.woff2",
@@ -1701,6 +1708,6 @@
     "/website-nav/assets/fontawesome-webfont.ad615792.svg"
   ],
   "src/github-access-init.ts": [
-    "/website-nav/assets/github-access-init.d410fd42.js"
+    "/website-nav/assets/github-access-init.4fab58bc.js"
   ]
 }
