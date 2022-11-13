@@ -11,12 +11,6 @@ subMenu:
         description: 提供了一系列预设的动画
         url: "https://animista.net/play/basic"
         logo: ""
-  - title: 技术指引
-    links:
-      - title: google developer - web
-        description: Build the next generation of web experiences.
-        url: "https://developers.google.cn/web"
-        logo: google-developer-web.png
   - title: 性能相关
     links:
       - title: Pingdom

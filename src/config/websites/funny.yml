@@ -1,0 +1,13 @@
+title: 有趣网站
+icon: fa-gamepad
+subMenu:
+  - title: 随机跳转
+    links:
+      - title: 十年之约
+        description: 虫洞-随机访问十年之约成员的网站
+        url: https://www.foreverblog.cn/go.html
+        logo: ""
+      - title: 开往
+        description: 开往-友链接力
+        url: https://travellings.link/
+        logo: ""

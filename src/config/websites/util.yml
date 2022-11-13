@@ -37,6 +37,14 @@ subMenu:
         description: 快速生成丰富的 Github README 个人介绍页
         url: https://rahuldkjain.github.io/gh-profile-readme-generator/
         logo: ""
+      - title: typing svg
+        description: 生成打字特效 svg
+        url: https://readme-typing-svg.demolab.com/demo/
+        logo: ""
+      - title: readme.so
+        description: 生成项目README的可视界面
+        url: https://readme.so/
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng

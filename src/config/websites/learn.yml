@@ -21,3 +21,7 @@ subMenu:
         description: 在线学习设计模式（react、vue， etc..），也可以下载PDF阅读
         url: https://www.patterns.dev/
         logo: ""
+      - title: google developer - web
+        description: Build the next generation of web experiences.
+        url: "https://developers.google.cn/web"
+        logo: google-developer-web.png

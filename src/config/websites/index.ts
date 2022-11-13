@@ -2,6 +2,7 @@ import design from './design.yml'
 import fe from './fe.yml'
 import learn from './learn.yml'
 import util from './util.yml'
+import funny from './funny.yml'
 // import be from './be.yml'
 // import devOps from './dev-ops.yml'
 // import download from './download.yml'
@@ -31,6 +32,7 @@ export const menus: IMenuItem[] = [
   // be, qa, devOps,
   design,
   learn,
+  funny,
   // download, relax
 ]
 
