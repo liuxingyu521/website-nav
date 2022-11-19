@@ -45,6 +45,10 @@ subMenu:
         description: 生成项目README的可视界面
         url: https://readme.so/
         logo: ""
+      - title: substats
+        description: 获取各种社交平台的订阅数，以 Badge 的形式展示
+        url: https://substats.spencerwoo.com/builder/
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -135,7 +139,7 @@ subMenu:
     links:
       - title: jsrun
         description: 在线运行代码，分享，打包代码包
-        url: "https://jsrun.net/"
+        url: https://jsrun.net/
         logo: jsrun.png
       - title: JShare
         description: 一个在线代码测试、托管、分享的工具
@@ -144,6 +148,12 @@ subMenu:
       - title: riju.codes
         description: 在线运行各种语言代码，无需安装环境
         url: https://riju.codes/
+        logo: ""
+  - title: 代码部署
+    links:
+      - title: surge
+        description: 快速部署静态网页
+        url: https://surge.sh/
         logo: ""
   - title: 其他工具
     links:
