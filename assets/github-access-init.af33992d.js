@@ -1,1 +1,0 @@
-import{u as t,a as o,g as i}from"./app.9f228ee9.js";(async function(){const e=Object.fromEntries(new URL(location.href).searchParams),a=t(),s=o();if(e.code){const c=await i(e.code);c&&(a.value=c,s.value=!0,history.replaceState(null,document.title,`${location.origin}${location.pathname}`))}})();
