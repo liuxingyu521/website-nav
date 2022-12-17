@@ -11,3 +11,9 @@ subMenu:
         description: 开往-友链接力
         url: https://travellings.link/
         logo: ""
+  - title: 音乐相关
+    links:
+      - title: radio在线听
+        description: 在线聆听世界各个国家不同时代的歌曲
+        url: https://radiooooo.com
+        logo: ""

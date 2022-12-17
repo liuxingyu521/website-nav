@@ -49,6 +49,26 @@ subMenu:
         description: 获取各种社交平台的订阅数，以 Badge 的形式展示
         url: https://substats.spencerwoo.com/builder/
         logo: ""
+      - title: trianglify
+        description: 生成由很多三角形组成的渐变背景图片
+        url: https://trianglify.io
+        logo: ""
+      - title: border radius 图形
+        description: 生成不同造型的 border-radius
+        url: https://9elements.github.io/fancy-border-radius
+        logo: ""
+      - title: getwaves
+        description: 生成波浪形状的svg图形，用于背景
+        url: https://getwaves.io
+        logo: ""
+      - title: haikei
+        description: 生成多样化背景图
+        url: https://app.haikei.app
+        logo: ""
+      - title: shapedivider
+        description: 可提供提供分界线样式的 svg 作为背景
+        url: https://www.shapedivider.app
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -82,6 +102,9 @@ subMenu:
       - title: svgo
         description: 优化 svg 代码的工具，去掉冗余的字符
         url: "https://github.com/svg/svgo"
+      - title: tinywow
+        description: 免费工具，用来处理文字、图片、视频、PDF等
+        url: https://tinywow.com
         logo: ""
   - title: 演示工具
     links:
@@ -135,6 +158,10 @@ subMenu:
         description: 提供免费油猴脚本插件下载工具
         url: "https://bbs.tampermonkey.net.cn/"
         logo: ""
+      - title: upstash
+        description: serverless data for Redis
+        url: https://upstash.com
+        logo: ""
   - title: 代码运行
     links:
       - title: jsrun
@@ -148,6 +175,10 @@ subMenu:
       - title: riju.codes
         description: 在线运行各种语言代码，无需安装环境
         url: https://riju.codes/
+        logo: ""
+      - title: stackblitz
+        description: 在线提供前后端项目运行环境，快速演示项目
+        url: https://stackblitz.com/
         logo: ""
   - title: 代码部署
     links:
@@ -216,4 +247,8 @@ subMenu:
       - title: emoji-cheat-sheet
         description: emoji 格式符号速查表
         url: https://www.webfx.com/tools/emoji-cheat-sheet/
+        logo: ""
+      - title: dub
+        description: 短链接服务，点击分析，也可以自己部署使用
+        url: https://dub.sh
         logo: ""

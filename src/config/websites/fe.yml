@@ -53,3 +53,7 @@ subMenu:
         description: 大数据分析的BI软件平台
         url: "https://www.finebi.com/"
         logo: finebi.png
+      - title: umami
+        description: 开源的 Google Analytics 替代方案，可以私有部署
+        url: https://umami.is/
+        logo: ""

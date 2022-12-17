@@ -43,6 +43,10 @@ subMenu:
         description: 移动端页面收藏，找设计灵感
         url: https://screenlane.com/
         logo: ""
+      - title: webdesignerdepot
+        description: 设计网站&博客，界面可定制
+        url: https://www.webdesignerdepot.com
+        logo: ""
   - title: 在线设计
     links:
       - title: pixso
