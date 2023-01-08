@@ -69,6 +69,10 @@ subMenu:
         description: 可提供提供分界线样式的 svg 作为背景
         url: https://www.shapedivider.app
         logo: ""
+      - title: fffuel
+        description: 颜色工具、调色板和免费 SVG 生成器的集合，用于渐变、图案、纹理、形状和背景
+        url: https://fffuel.co
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -251,4 +255,8 @@ subMenu:
       - title: dub
         description: 短链接服务，点击分析，也可以自己部署使用
         url: https://dub.sh
+        logo: ""
+      - title: starchart
+        description: 绘制 github 仓库的 star 趋势图
+        url: https://starchart.cc
         logo: ""

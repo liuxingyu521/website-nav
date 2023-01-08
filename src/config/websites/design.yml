@@ -29,6 +29,10 @@ subMenu:
         description: 罗列了中国的传统色彩，UI设计更加漂亮
         url: https://chinese-colors.heyfe.org/
         logo: ""
+      - title: storyset
+        description: 提供免费的插画图
+        url: https://storyset.com/
+        logo: ""
   - title: 灵感来源
     links:
       - title: 优优网
@@ -46,6 +50,10 @@ subMenu:
       - title: webdesignerdepot
         description: 设计网站&博客，界面可定制
         url: https://www.webdesignerdepot.com
+        logo: ""
+      - title: xmind 脑图合集
+        description: 可以从一些优秀案例提取灵感，制作更清晰好看的脑图
+        url: https://xmind.app/share/
         logo: ""
   - title: 在线设计
     links:
