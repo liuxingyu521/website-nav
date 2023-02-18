@@ -89,7 +89,7 @@ subMenu:
         logo: ""
       - title: onlineconvertfree
         description: 在线转换文件格式，又免费又快
-        url: "https://www.youcompress.com/"
+        url: "https://onlineconvertfree.com/zh/"
         logo: onlineconvertfree.png
       - title: docsmall
         description: jpg/png/gif/pdf 压缩，pdf合并，pdf分割
@@ -110,10 +110,32 @@ subMenu:
         description: 免费工具，用来处理文字、图片、视频、PDF等
         url: https://tinywow.com
         logo: ""
+      - title: file-converter
+        description: 在线文件转换
+        url: https://compress-video.file-converter-online.com/
+        logo: ""
+  - title: 分析工具
+    links:
+      - title: analyzemyrepo
+        description: 用于了解任何 GitHub 存储库的贡献活跃度
+        url: https://analyzemyrepo.com/
+        logo: ""
+      - title: npm-unpkg
+        description: 快捷查看npm包发布后的目录文件
+        url: https://uiwjs.github.io/npm-unpkg/
+        logo: ""
+      - title: bundlephobia
+        description: 在线查看分析npm包的大小及构成
+        url: https://bundlephobia.com/
+        logo: ""
+      - title: npmgraph
+        description: 查看npm包的拓扑关系图
+        url: https://npmgraph.js.org/
+        logo: ""
   - title: 演示工具
     links:
       - title: 演说
-        description: "在线创作&展示 ppt 文稿"
+        description: 用于分析 GitHub 存储库的贡献活跃度
         url: "https://yanshuo.io/"
         logo: yanshuo.png
   - title: 开发工具
@@ -190,6 +212,12 @@ subMenu:
         description: 快速部署静态网页
         url: https://surge.sh/
         logo: ""
+  - title: 存储分享
+    links:
+      - title: quicknote
+        description: 在线笔记分享
+        url: https://quicknote.io/
+        logo: ""
   - title: 其他工具
     links:
       - title: cmd markdown编辑器
@@ -236,18 +264,6 @@ subMenu:
         description: 开源的在线聊天应用，可用作客服
         url: https://www.chatwoot.com/
         logo: ""
-      - title: npm-unpkg
-        description: 快捷查看npm包发布后的目录文件
-        url: https://uiwjs.github.io/npm-unpkg/
-        logo: ""
-      - title: bundlephobia
-        description: 在线查看分析npm包的大小及构成
-        url: https://bundlephobia.com/
-        logo: ""
-      - title: npmgraph
-        description: 查看npm包的拓扑关系图
-        url: https://npmgraph.js.org/
-        logo: ""
       - title: emoji-cheat-sheet
         description: emoji 格式符号速查表
         url: https://www.webfx.com/tools/emoji-cheat-sheet/
@@ -259,4 +275,8 @@ subMenu:
       - title: starchart
         description: 绘制 github 仓库的 star 趋势图
         url: https://starchart.cc
+        logo: ""
+      - title: grep.app
+        description: 根据代码搜索github仓库
+        url: https://grep.app/
         logo: ""

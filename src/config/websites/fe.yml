@@ -23,6 +23,16 @@ subMenu:
         description: 生成业务流程模型的工具，类似流程图
         url: "https://bpmn.io/toolkit/bpmn-js/"
         logo: ""
+      - title: MDX
+        description: markdown 中通过 jsx 渲染组件，组件中插入 markdown
+        url: "https://mdxjs.com/docs/"
+        logo: mdx.png
+      - title: rrweb 录制网页
+        description: Web 录制与回放的工具库
+        url: https://www.rrweb.io/
+        logo: ""
+  - title: 动画库
+    links:
       - title: GreenSock
         description: 一个行业标准JavaScript动画库，可以制作出在每个主要浏览器中都能工作的高性能动画。
         url: "https://greensock.com/"
@@ -39,13 +49,9 @@ subMenu:
         description: 跨平台的高性能图形系统
         url: http://spritejs.com
         logo: ""
-      - title: MDX
-        description: markdown 中通过 jsx 渲染组件，组件中插入 markdown
-        url: "https://mdxjs.com/docs/"
-        logo: mdx.png
-      - title: rrweb 录制网页
-        description: Web 录制与回放的工具库
-        url: https://www.rrweb.io/
+      - title: matter.js
+        description: 2D 刚体物理引擎
+        url: https://brm.io/matter-js/
         logo: ""
   - title: 解决方案
     links:

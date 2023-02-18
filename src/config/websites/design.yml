@@ -19,6 +19,14 @@ subMenu:
         description: 收录了世界各地的矢量 LOGO图标
         url: https://worldvectorlogo.com/
         logo: ""
+      - title: iconbolt
+        description: 7w多个SVG 图标的仓库,免费使用
+        url: https://www.iconbolt.com/
+        logo: ""
+      - title: tabler-icons
+        description: 一组超过 3400 个免费的 MIT 许可的高质量 SVG 图标
+        url: https://tabler-icons.io/
+        logo: ""
   - title: 设计资源
     links:
       - title: 中国色
@@ -32,6 +40,10 @@ subMenu:
       - title: storyset
         description: 提供免费的插画图
         url: https://storyset.com/
+        logo: ""
+      - title: htmlrev
+        description: 免费提供多个 landing page 样式供下载
+        url: https://htmlrev.com/
         logo: ""
   - title: 灵感来源
     links:
