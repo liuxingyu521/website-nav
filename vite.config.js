@@ -9,7 +9,7 @@ import { visualizer } from 'rollup-plugin-visualizer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/website-nav/',
+  base: '/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src/'),
