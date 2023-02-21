@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { getAppPrefix } from '@/utils/common'
 import LazyloadImage from '@/components/lazyload-image/index.vue'
 
 defineProps({
@@ -9,7 +8,6 @@ defineProps({
   },
 })
 
-const appPrefix = getAppPrefix()
 </script>
 
 <template>
@@ -30,11 +28,11 @@ const appPrefix = getAppPrefix()
               <LazyloadImage
                 :src="
                   link.logo
-                    ? `${appPrefix}/assets/logos/${link.logo}`
-                    : `${appPrefix}/default-link.png`
+                    ? `/assets/logos/${link.logo}`
+                    : '/default-link.png'
                 "
                 :alt="link.title"
-                :default-src="`${appPrefix}/default-link.png`"
+                default-src="/default-link.png"
               />
             </client-only>
           </div>

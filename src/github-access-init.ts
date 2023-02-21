@@ -1,6 +1,6 @@
 import { useGithubAccess, useGlobalFeedbackVisible } from './store'
 import { getAccessToken } from './apis/github'
-;(async function getGithubAccess() {
+;(async function getGithubAccess () {
   const params = Object.fromEntries(new URL(location.href).searchParams)
   const githubAcceccToken = useGithubAccess()
   const globalFeedbackVisible = useGlobalFeedbackVisible()
@@ -15,7 +15,7 @@ import { getAccessToken } from './apis/github'
       history.replaceState(
         null,
         document.title,
-        `${location.origin}${location.pathname}`
+        `${location.origin}${location.pathname}`,
       )
     }
   }

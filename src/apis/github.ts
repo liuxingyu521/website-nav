@@ -3,7 +3,7 @@ import { useGithubAccess } from '@/store'
 import { isDev } from '@/utils/common'
 
 /** github oauth2 */
-function goAuthorize() {
+function goAuthorize () {
   const url = isDev()
     ? '//localhost:7001/github/authorize?type=nav'
     : '//api.xuer.tech/github/authorize?type=nav'
@@ -12,7 +12,7 @@ function goAuthorize() {
 }
 
 /** 获取 githubToken */
-async function getAccessToken(code: string) {
+async function getAccessToken (code: string) {
   const url = isDev()
     ? `//localhost:7001/github/access-token?code=${code}&type=nav`
     : `//api.xuer.tech/github/access-token?code=${code}&type=nav`
@@ -23,7 +23,7 @@ async function getAccessToken(code: string) {
 }
 
 /** 提交新网站 */
-async function createWebsite(websiteInfo: {
+async function createWebsite (websiteInfo: {
   title: string
   url: string
   desc?: string
