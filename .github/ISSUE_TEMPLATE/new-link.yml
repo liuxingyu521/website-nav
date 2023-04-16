@@ -1,14 +1,10 @@
----
 name: ⭐ 推荐实用网站
 description: 欢迎推荐你喜欢的使用网站哦
 labels: new-link
 body:
-- type: textarea
+- type: markdown
   attributes:
-    value: 新建一项实用网站
----
-
-  - 标题: 
-  - 链接: 
-  - 描述: 
-  
+    value: |
+        - 标题: 
+        - 链接: 
+        - 描述: 
