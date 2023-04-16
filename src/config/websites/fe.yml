@@ -31,6 +31,12 @@ subMenu:
         description: Web 录制与回放的工具库
         url: https://www.rrweb.io/
         logo: ""
+  - title: 组件库
+    links:
+      - title: handsome-css
+        description: 有趣开源的纯css特效组件
+        url: https://www.handsome-css.com/
+        logo: ""
   - title: 动画库
     links:
       - title: GreenSock

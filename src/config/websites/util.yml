@@ -7,6 +7,16 @@ subMenu:
         description: 站长常用工具，提供 seo/ip/域名/网速/友情链接/权重等查询服务
         url: "https://tool.chinaz.com/Tools/Unicode.aspx"
         logo: chinaz.png
+  - title: 搜索相关
+    links:
+      - title: you.com
+        description: AI搜索引擎、对话、绘图写作等
+        url: https://you.com/
+        logo: ""
+      - title: grep.app
+        description: 根据代码搜索github仓库
+        url: https://grep.app/
+        logo: ""
   - title: 生成相关
     links:
       - title: Carbon
@@ -73,6 +83,14 @@ subMenu:
         description: 颜色工具、调色板和免费 SVG 生成器的集合，用于渐变、图案、纹理、形状和背景
         url: https://fffuel.co
         logo: ""
+      - title: tempmail
+        description: 临时生成邮箱使用
+        url: https://tempmail.plus/zh/
+        logo: ""
+      - title: starchart
+        description: 绘制 github 仓库的 star 趋势图
+        url: https://starchart.cc
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -131,6 +149,10 @@ subMenu:
       - title: npmgraph
         description: 查看npm包的拓扑关系图
         url: https://npmgraph.js.org/
+        logo: ""
+      - title: npm devtool
+        description: 查看分析npm包的大小和依赖，以及相关包推荐
+        url: https://npm.devtool.tech/
         logo: ""
   - title: 演示工具
     links:
@@ -272,11 +294,7 @@ subMenu:
         description: 短链接服务，点击分析，也可以自己部署使用
         url: https://dub.sh
         logo: ""
-      - title: starchart
-        description: 绘制 github 仓库的 star 趋势图
-        url: https://starchart.cc
-        logo: ""
-      - title: grep.app
-        description: 根据代码搜索github仓库
-        url: https://grep.app/
+      - title: 八九网
+        description: 经纬度查询,经纬度定位查询,经纬度地图
+        url: https://bajiu.cn/ditu/?id=20676
         logo: ""

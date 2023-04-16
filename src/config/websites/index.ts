@@ -3,6 +3,7 @@ import fe from './fe.yml'
 import learn from './learn.yml'
 import util from './util.yml'
 import funny from './funny.yml'
+import ai from './ai.yml'
 // import be from './be.yml'
 // import devOps from './dev-ops.yml'
 // import download from './download.yml'
@@ -28,6 +29,7 @@ export interface IMenuItem {
 /** 菜单导航数据 */
 export const menus: IMenuItem[] = [
   util,
+  ai,
   fe,
   // be, qa, devOps,
   design,

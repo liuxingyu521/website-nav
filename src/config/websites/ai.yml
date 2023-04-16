@@ -1,0 +1,21 @@
+title: AI相关
+icon: fa-lightbulb-o
+subMenu:
+  - title: 创意类
+    links:
+      - title: character.ai
+        description: 和专属角色进行AI对话
+        url: https://beta.character.ai/
+        logo: ""
+  - title: 音乐类
+    links:
+      - title: soundraw
+        description: AI为你生成免版税音乐
+        url: https://soundraw.io/
+        logo: ""
+  - title: 其他导航
+    links:
+      - title: vondy AI 工具
+        description: AI 分类导航
+        url: https://soundraw.io/
+        logo: ""

@@ -27,6 +27,10 @@ subMenu:
         description: 一组超过 3400 个免费的 MIT 许可的高质量 SVG 图标
         url: https://tabler-icons.io/
         logo: ""
+      - title: animated-icons
+        description: 动态图标下载、制作
+        url: https://icons8.com/animated-icons
+        logo: ""
   - title: 设计资源
     links:
       - title: 中国色
