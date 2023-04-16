@@ -2,12 +2,16 @@ name: ⭐ 推荐实用网站
 description: 欢迎推荐你喜欢的使用网站哦
 labels: new-link
 body:
-- type: markdown
+- type: input
   attributes:
-    value: |
-        - 标题: 
-        - 链接: 
-        - 描述: 
-- type: textarea
+    label: 标题
+    description: 推荐的实用网站标题
+- type: input
   attributes:
-    label: "edit below"
+    label: 链接
+    description: 推荐的实用网站链接地址
+- type: input
+  attributes:
+    label: 描述
+    description: 关于推荐的实用网站描述
+
