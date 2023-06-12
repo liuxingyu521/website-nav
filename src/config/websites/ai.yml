@@ -1,6 +1,16 @@
 title: AI相关
 icon: fa-lightbulb-o
 subMenu:
+  - title: 工具类
+    links:
+      - title: AI法律助手
+        description: AI 检索法律文件后生成相应的回答
+        url: https://law-cn-ai.vercel.app/
+        logo: ""
+      - title: Logo maker
+        description: 使用 AI 生成 Logo
+        url: https://logomakerr.ai/
+        logo: ""
   - title: 创意类
     links:
       - title: character.ai

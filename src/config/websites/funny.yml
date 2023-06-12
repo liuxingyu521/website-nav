@@ -23,3 +23,7 @@ subMenu:
         description: 随机有趣的谷歌街景
         url: https://neal.fun/wonders-of-street-view/
         logo: ""
+      - title: earthcam
+        description: 全球各地实况直播
+        url: https://www.earthcam.com/
+        logo: ""

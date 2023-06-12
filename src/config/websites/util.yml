@@ -91,6 +91,10 @@ subMenu:
         description: 绘制 github 仓库的 star 趋势图
         url: https://starchart.cc
         logo: ""
+      - title: jellylade
+        description: 屏幕截图 mockup
+        url: https://app.jellylade.com/
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -129,7 +133,7 @@ subMenu:
         url: https://tinywow.com
         logo: ""
       - title: file-converter
-        description: 在线文件转换
+        description: 在线文件转换，文件压缩
         url: https://compress-video.file-converter-online.com/
         logo: ""
   - title: 分析工具
@@ -297,4 +301,8 @@ subMenu:
       - title: 八九网
         description: 经纬度查询,经纬度定位查询,经纬度地图
         url: https://bajiu.cn/ditu/?id=20676
+        logo: ""
+      - title: receivesms
+        description: 经纬度查询,经纬度定位查询,经纬度地图
+        url: https://www.receivesms.io/
         logo: ""

@@ -31,6 +31,10 @@ subMenu:
         description: Web 录制与回放的工具库
         url: https://www.rrweb.io/
         logo: ""
+      - title: 汉字拼音转换
+        description: 汉字拼音转换库
+        url: https://github.com/zh-lx/pinyin-pro
+        logo: ""
   - title: 组件库
     links:
       - title: handsome-css
