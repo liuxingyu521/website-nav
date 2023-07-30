@@ -31,6 +31,10 @@ subMenu:
         description: 动态图标下载、制作
         url: https://icons8.com/animated-icons
         logo: ""
+      - title: iconbuddy
+        description: 下载、定制、编辑和个性化,超过 100k+ 开源图标
+        url: https://iconbuddy.app/
+        logo: ""
   - title: 设计资源
     links:
       - title: 中国色
@@ -45,9 +49,17 @@ subMenu:
         description: 提供免费的插画图
         url: https://storyset.com/
         logo: ""
+      - title: loosedrawing
+        description: 插图网站，可改配色
+        url: https://loosedrawing.com/
+        logo: ""
       - title: htmlrev
         description: 免费提供多个 landing page 样式供下载
         url: https://htmlrev.com/
+        logo: ""
+      - title: wallhaven
+        description: 壁纸下载
+        url: https://wallhaven.cc/
         logo: ""
   - title: 灵感来源
     links:

@@ -7,6 +7,10 @@ subMenu:
         description: 站长常用工具，提供 seo/ip/域名/网速/友情链接/权重等查询服务
         url: "https://tool.chinaz.com/Tools/Unicode.aspx"
         logo: chinaz.png
+      - title: web-check
+        description: 在线分析网站的信息
+        url: https://web-check.xyz/
+        logo: ""
   - title: 搜索相关
     links:
       - title: you.com
@@ -51,6 +55,10 @@ subMenu:
         description: 生成打字特效 svg
         url: https://readme-typing-svg.demolab.com/demo/
         logo: ""
+      - title: vectorizer
+        description: 将图像转换为可缩放矢量图形
+        url: https://www.vectorizer.io/
+        logo: ""
       - title: readme.so
         description: 生成项目README的可视界面
         url: https://readme.so/
@@ -91,9 +99,17 @@ subMenu:
         description: 绘制 github 仓库的 star 趋势图
         url: https://starchart.cc
         logo: ""
+      - title: github stargazer 展示视频
+        description: 生成 github 的 star 里程碑视频
+        url: https://github.com/pomber/stargazer
+        logo: ""
       - title: jellylade
         description: 屏幕截图 mockup
         url: https://app.jellylade.com/
+        logo: ""
+      - title: magiconch
+        description: 梗图生成器
+        url: https://x.magiconch.com/
         logo: ""
   - title: 文件工具
     links:
@@ -158,6 +174,10 @@ subMenu:
         description: 查看分析npm包的大小和依赖，以及相关包推荐
         url: https://npm.devtool.tech/
         logo: ""
+      - title: pkg-size
+        description: 分析包大小和依赖，使用 web container 进行安装下载
+        url: https://pkg-size.dev/
+        logo: ""
   - title: 演示工具
     links:
       - title: 演说
@@ -214,6 +234,10 @@ subMenu:
         description: serverless data for Redis
         url: https://upstash.com
         logo: ""
+      - title: perf.link
+        description: 基准测试 benchmark
+        url: perf.link
+        logo: ""
   - title: 代码运行
     links:
       - title: jsrun
@@ -243,6 +267,10 @@ subMenu:
       - title: quicknote
         description: 在线笔记分享
         url: https://quicknote.io/
+        logo: ""
+      - title: graph.org
+        description: 在线文章分享
+        url: https://graph.org/
         logo: ""
   - title: 其他工具
     links:
@@ -303,6 +331,10 @@ subMenu:
         url: https://bajiu.cn/ditu/?id=20676
         logo: ""
       - title: receivesms
-        description: 经纬度查询,经纬度定位查询,经纬度地图
+        description: 国外手机接码平台
         url: https://www.receivesms.io/
+        logo: ""
+      - title: collabedit 协同编辑
+        description: 在线协同编辑器
+        url: https://collabedit.com/
         logo: ""

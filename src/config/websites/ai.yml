@@ -11,6 +11,10 @@ subMenu:
         description: 使用 AI 生成 Logo
         url: https://logomakerr.ai/
         logo: ""
+      - title: perplexity
+        description: 免费使用 AI
+        url: https://www.perplexity.ai/
+        logo: ""
   - title: 创意类
     links:
       - title: character.ai
@@ -28,4 +32,12 @@ subMenu:
       - title: vondy AI 工具
         description: AI 分类导航
         url: https://soundraw.io/
+        logo: ""
+      - title: ai-bot
+        description: AI 工具集
+        url: https://ai-bot.cn/
+        logo: ""
+      - title: mojidoc
+        description: AI 工具分类
+        url: https://www.mojidoc.com/08z7y-e43hjtkw3rglpkfnsqrgkuyyey-00b
         logo: ""
