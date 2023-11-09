@@ -10,7 +10,6 @@
     "dev": "vite",
     "build": "vite-ssg build",
     "preview": "vite preview",
-    "prepare": "npx husky install",
     "release": "npx bumpp",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -29,6 +28,7 @@
     "eslint": "8.53.0",
     "less": "4.2.0",
     "rollup-plugin-visualizer": "^5.9.2",
+    "simple-git-hooks": "^2.9.0",
     "typescript": "5.2.2",
     "unplugin-auto-import": "0.16.7",
     "unplugin-vue-components": "0.25.2",
@@ -36,6 +36,11 @@
     "vite-ssg": "^0.23.4"
   },
   "lint-staged": {
-    "*.{js,ts,json,yml,vue}": ["eslint --fix"]
+    "*.{js,ts,json,yml,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
   }
 }
