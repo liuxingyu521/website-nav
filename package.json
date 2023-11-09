@@ -37,12 +37,10 @@
     "vite": "^4.5.0",
     "vite-ssg": "^0.23.4"
   },
-  "lint-staged": {
-    "*.{js,ts,json,yml,vue}": [
-      "eslint --fix"
-    ]
-  },
   "simple-git-hooks": {
-    "pre-commit": "npx lint-staged"
+    "pre-commit": "pnpx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,yml,vue}": ["eslint --fix"]
   }
 }
