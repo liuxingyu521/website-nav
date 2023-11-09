@@ -10,6 +10,7 @@
     "dev": "vite",
     "build": "vite-ssg build",
     "preview": "vite preview",
+    "analyze": "cross-env ANALYZE=true pnpm build",
     "release": "npx bumpp",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -25,6 +26,7 @@
     "@originjs/vite-plugin-content": "1.0.5",
     "@vitejs/plugin-vue": "4.4.0",
     "@vueuse/head": "^2.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "8.53.0",
     "less": "4.2.0",
     "rollup-plugin-visualizer": "^5.9.2",
