@@ -1,6 +1,6 @@
 {
   "name": "nav",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "a collection of used website navigation",
   "packageManager": "pnpm@8.10.2",
   "author": "liuxingyu521",
@@ -44,8 +44,6 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,json,yml,vue}": [
-      "eslint --fix"
-    ]
+    "*.{js,ts,json,yml,vue}": ["eslint --fix"]
   }
 }
