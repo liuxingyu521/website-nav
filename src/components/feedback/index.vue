@@ -63,7 +63,7 @@ const handleSubmit = async () => {
 <template>
   <div class="feedback" title="添加链接" @click="handleToggleFeedback">
     <i
-      class="fa-plus"
+      class="i-fa-plus"
       :class="{
         active: isActive,
       }"
@@ -101,7 +101,7 @@ const handleSubmit = async () => {
               round
               @click="goAuthorize"
             >
-              <i class="fa-github" style="margin-right: 10px"></i>
+              <i class="i-fa-github" style="margin-right: 10px"></i>
               使用 github 登录
             </el-button>
             <el-button
@@ -140,8 +140,8 @@ const handleSubmit = async () => {
     transform: translateY(-1px);
   }
 
-  .fa-plus {
-    font-size: 22px;
+  .i-fa-plus {
+    font-size: 18px;
     color: lightcoral;
     transition: all 0.2s linear;
 

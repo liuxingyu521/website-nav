@@ -13,7 +13,7 @@ defineProps({
 <template>
   <div class="nav-section">
     <h4 :id="section.title.replace(/\s/, '_')" class="nav-section__title">
-      <i class="fa-tags"></i>
+      <i class="i-fa-tags"></i>
       {{ section.title }}
     </h4>
     <div class="nav-section__content">

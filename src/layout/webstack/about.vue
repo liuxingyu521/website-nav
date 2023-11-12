@@ -1,7 +1,7 @@
 <template>
   <div class="nav-section">
     <h4 id="关于本站" class="nav-section__title">
-      <i class="fa-heart heart"></i>
+      <i class="i-fa-heart heart"></i>
       关于本站
     </h4>
     <p>

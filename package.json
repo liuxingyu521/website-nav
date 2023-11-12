@@ -17,12 +17,14 @@
   },
   "repository": "https://github.com/liuxingyu521/nav",
   "dependencies": {
+    "@unocss/reset": "^0.57.3",
     "@vueuse/core": "^10.5.0",
     "element-plus": "^2.4.2",
     "vue": "^3.3.8"
   },
   "devDependencies": {
-    "@liuxingyu521/eslint-config": "^1.0.7",
+    "@iconify-json/fa": "^1.1.5",
+    "@liuxingyu521/eslint-config": "^1.1.0",
     "@originjs/vite-plugin-content": "1.0.5",
     "@vitejs/plugin-vue": "4.4.0",
     "@vueuse/head": "^2.0.0",
@@ -32,6 +34,7 @@
     "rollup-plugin-visualizer": "^5.9.2",
     "simple-git-hooks": "^2.9.0",
     "typescript": "5.2.2",
+    "unocss": "^0.57.2",
     "unplugin-auto-import": "0.16.7",
     "unplugin-vue-components": "0.25.2",
     "vite": "^4.5.0",
@@ -41,6 +44,8 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,json,yml,vue}": ["eslint --fix"]
+    "*.{js,ts,json,yml,vue}": [
+      "eslint --fix"
+    ]
   }
 }

@@ -34,7 +34,7 @@ const toggleSideNav = () => {
 
 const sideMenus = props.menus.concat({
   title: '关于本站',
-  icon: 'fa-heart heart',
+  icon: 'i-fa-heart heart',
 })
 </script>
 
@@ -49,14 +49,14 @@ const sideMenus = props.menus.concat({
       <div class="nav-container__top--mobile-right">
         <Search />
         <span class="menu" @click="toggleSideNav">
-          <i class="fa-bars fa-lg" />
+          <i class="i-fa-bars" />
         </span>
       </div>
     </div>
     <div v-else class="nav-container__top">
       <Search>
         <div class="nav-container__top-search">
-          <i class="fa-search" style="margin: 3px 10px 0 0"></i>
+          <i class="i-fa-search" style="margin: 3px 10px 0 0"></i>
           <span style="margin-top: 4px">站内搜索</span>
           <span class="nav-container__top-search__shortcut"> ⌘ K </span>
         </div>
@@ -79,7 +79,6 @@ const sideMenus = props.menus.concat({
 </template>
 
 <style lang="less">
-@import '@/css/index.less';
 
 .nav-container {
   height: 100%;
@@ -185,6 +184,6 @@ const sideMenus = props.menus.concat({
 }
 
 .heart {
-  color: lightcoral;
+  color: lightcoral !important;
 }
 </style>

@@ -56,7 +56,7 @@ watch(meta_k, (isClickMetaK) => {
   <span title="站内搜索" @click="handleOpenSearch">
     <slot>
       <span class="search">
-        <i class="fa-search"></i>
+        <i class="i-fa-search"></i>
       </span>
     </slot>
   </span>

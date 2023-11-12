@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, watch } from 'vue'
+import { BaseTransitionProps, ref, watch } from 'vue'
 import Logo from './logo.vue'
 
 const props = defineProps({
@@ -47,7 +47,7 @@ const toggleExpand = (menu: any) => {
   })
 }
 
-function enter(el: HTMLElement, done: Function) {
+const enter: BaseTransitionProps['onEnter'] = (el, done) => {
   const elHeight = el.getBoundingClientRect().height
 
   el.style.setProperty('--height', `${elHeight}px`)
@@ -58,12 +58,12 @@ function enter(el: HTMLElement, done: Function) {
   })
 }
 
-function afterEnter(el: HTMLElement) {
+const afterEnter: BaseTransitionProps['onAfterEnter'] = (el) => {
   el.classList.add('expand')
   el.classList.remove('enter')
 }
 
-function leave(el: HTMLElement, done: Function) {
+const leave: BaseTransitionProps['onLeave'] = (el, done) => {
   el.classList.remove('expand')
   el.classList.add('enter')
 
@@ -86,11 +86,11 @@ function leave(el: HTMLElement, done: Function) {
             @click="toggleExpand(menu)"
           >
             <span>
-              <i class="fam" :class="[menu.icon || 'fa-bookmark-o']"></i>
+              <i :class="[menu.icon || 'i-fa-bookmark-o']"></i>
               <span>{{ menu.title }}</span>
             </span>
             <span
-              class="arrow fa fa-angle-right"
+              class="arrow i-fa-angle-right"
               :class="[menu.isExpand ? 'arrow--expand' : '']"
             ></span>
           </span>
@@ -206,10 +206,14 @@ function leave(el: HTMLElement, done: Function) {
 
       &.multiple {
         user-select: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
         .arrow {
           float: right;
-          transition: all 0.3s ease-in-out;
+          transition: transform 0.3s ease-in-out;
+          font-size: 10px;
 
           &--expand {
             transform: rotate(90deg);
