@@ -35,7 +35,7 @@
     "simple-git-hooks": "^2.9.0",
     "typescript": "5.2.2",
     "unocss": "^0.57.2",
-    "unplugin-auto-import": "0.16.7",
+    "unplugin-auto-import": "0.17.5",
     "unplugin-vue-components": "0.25.2",
     "vite": "^4.5.0",
     "vite-ssg": "^0.23.4"
