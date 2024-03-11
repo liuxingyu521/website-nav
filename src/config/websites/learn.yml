@@ -25,3 +25,9 @@ subMenu:
         description: Build the next generation of web experiences.
         url: "https://developers.google.cn/web"
         logo: google-developer-web.png
+  - title: 独立开发
+    links:
+      - title: w2solo
+        description: 独立开发者社区
+        url: https://w2solo.com/
+        logo: ""
