@@ -33,7 +33,7 @@
     "less": "4.2.0",
     "rollup-plugin-visualizer": "^5.9.2",
     "simple-git-hooks": "^2.9.0",
-    "typescript": "5.2.2",
+    "typescript": "5.4.3",
     "unocss": "^0.57.2",
     "unplugin-auto-import": "0.16.7",
     "unplugin-vue-components": "0.25.2",
