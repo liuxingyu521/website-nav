@@ -111,6 +111,10 @@ subMenu:
         description: 梗图生成器
         url: https://x.magiconch.com/
         logo: ""
+      - title: 22.do
+        description: 临时谷歌邮箱
+        url: https://22.do/
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
@@ -337,4 +341,8 @@ subMenu:
       - title: collabedit 协同编辑
         description: 在线协同编辑器
         url: https://collabedit.com/
+        logo: ""
+      - title: libhunt
+        description: 热门流行开源项目查看和对比
+        url: https://www.libhunt.com/
         logo: ""

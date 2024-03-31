@@ -15,6 +15,10 @@ subMenu:
         description: 纯 css 加载动画，只用一个 div
         url: https://css-loaders.com/
         logo: ""
+      - title: toptal css sprite
+        description: 生成css雪碧图
+        url: https://www.toptal.com/developers/css/sprite-generator
+        logo: ""
   - title: 性能相关
     links:
       - title: Pingdom
