@@ -115,6 +115,14 @@ subMenu:
         description: 临时谷歌邮箱
         url: https://22.do/
         logo: ""
+      - title: mycolor
+        description: 生成渐变色，给定一个颜色，生成相关色系
+        url: https://mycolor.space/
+        logo: ""
+      - title: DIY斗图
+        description: 自制梗图+文字
+        url: https://www.diydoutu.com/diy/doutu
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng

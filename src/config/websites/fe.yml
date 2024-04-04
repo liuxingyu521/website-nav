@@ -19,6 +19,10 @@ subMenu:
         description: 生成css雪碧图
         url: https://www.toptal.com/developers/css/sprite-generator
         logo: ""
+      - title: cssportal
+        description: css 相关工具，svg文字动画等
+        url: https://www.cssportal.com/css-animated-text-generator/
+        logo: ""
   - title: 性能相关
     links:
       - title: Pingdom
