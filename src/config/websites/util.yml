@@ -190,6 +190,10 @@ subMenu:
         description: 分析包大小和依赖，使用 web container 进行安装下载
         url: https://pkg-size.dev/
         logo: ""
+      - title: ip info
+        description: 查看 ip 相关信息
+        url: https://ipinfo.io/
+        logo: ""
   - title: 演示工具
     links:
       - title: 演说
