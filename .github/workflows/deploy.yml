@@ -27,7 +27,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build Project
-        run: pnpm build
+        env:
+          VITE_API_HOST: ${{ secrets.VITE_API_HOST }}
+        run: env & pnpm build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
