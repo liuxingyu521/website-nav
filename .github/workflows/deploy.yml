@@ -29,7 +29,7 @@ jobs:
       - name: Build Project
         env:
           VITE_API_HOST: ${{ secrets.VITE_API_HOST }}
-        run: env & pnpm build
+        run: pnpm build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
