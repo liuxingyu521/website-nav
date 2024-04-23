@@ -3,8 +3,9 @@ import App from './app.vue'
 import '@/css/index.less'
 import 'virtual:uno.css'
 
-export const createApp = ViteSSG(App, ({ isClient }) => {
+export const createApp = ViteSSG(App, async ({ isClient }) => {
   if (isClient) {
-    import('./github-access-init')
+    const { checkGithubAccess } = await import('./github-access-init')
+    checkGithubAccess()
   }
 })

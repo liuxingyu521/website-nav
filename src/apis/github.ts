@@ -1,21 +1,18 @@
 import { useFetch } from '@vueuse/core'
 import { useGithubAccess } from '@/store'
-import { isDev } from '@/utils/common'
+
+const host = import.meta.env.VITE_API_HOST
 
 /** github oauth2 */
 function goAuthorize () {
-  const url = isDev()
-    ? '//localhost:7001/github/authorize?type=nav'
-    : '//api.xuer.tech/github/authorize?type=nav'
+  const url = `//${host}/github/authorize?type=nav`
 
   window.location.href = url
 }
 
 /** 获取 githubToken */
 async function getAccessToken (code: string) {
-  const url = isDev()
-    ? `//localhost:7001/github/access-token?code=${code}&type=nav`
-    : `//api.xuer.tech/github/access-token?code=${code}&type=nav`
+  const url = `//${host}/github/access-token?code=${code}&type=nav`
 
   const res = await fetch(url).then((res) => res.json())
 
@@ -35,9 +32,7 @@ async function createWebsite (websiteInfo: {
   - 描述: ${websiteInfo.desc ? websiteInfo.desc : '空'}
   `
 
-  const url = isDev()
-    ? '//localhost:7001/github/website'
-    : '//api.xuer.tech/github/website'
+  const url = `//${host}/github/website`
 
   const { error } = await useFetch(url, {
     headers: {

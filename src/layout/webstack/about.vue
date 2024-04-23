@@ -7,7 +7,7 @@
     <p>
       改版自
       <a href="http://webstack.cc/cn/index.html" target="_blank">webstack.cc</a>
-      ，使用 vue3 + vite2 搭建。
+      ，使用 vue3 + vite 搭建。
     </p>
   </div>
 </template>

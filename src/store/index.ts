@@ -1,10 +1,10 @@
 import { createGlobalState, useLocalStorage } from '@vueuse/core'
 import { ref } from 'vue'
-import { Github_Access_Token_Storage_Key } from '@/config/constants'
+import { GITHUB_ACCESS_TOKEN_STORAGE_KEY } from '@/config/constants'
 
 /** localStorage 里的access_token */
 export const useGithubAccess = createGlobalState(() => {
-  return useLocalStorage(Github_Access_Token_Storage_Key, '', {
+  return useLocalStorage(GITHUB_ACCESS_TOKEN_STORAGE_KEY, '', {
     mergeDefaults: true,
   })
 })
