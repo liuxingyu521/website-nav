@@ -14,6 +14,8 @@
         top: 0;
         border: 0;
         right: 0;
+        width: 80px;
+        height: 80px;
       "
       aria-hidden="true"
     >
@@ -60,14 +62,10 @@
   }
 }
 
-.github-corner svg {
-  width: 80px;
-  height: 80px;
-}
 @media (max-width: 1000px) {
   .github-corner svg {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
   }
 }
 </style>
