@@ -4,23 +4,23 @@ import { useGithubAccess } from '@/store'
 const host = import.meta.env.VITE_API_HOST
 
 /** github oauth2 */
-function goAuthorize () {
+function goAuthorize() {
   const url = `//${host}/github/authorize?type=nav`
 
   window.location.href = url
 }
 
 /** 获取 githubToken */
-async function getAccessToken (code: string) {
+async function getAccessToken(code: string) {
   const url = `//${host}/github/access-token?code=${code}&type=nav`
 
-  const res = await fetch(url).then((res) => res.json())
+  const res = await fetch(url).then(res => res.json())
 
   return res.access_token
 }
 
 /** 提交新网站 */
-async function createWebsite (websiteInfo: {
+async function createWebsite(websiteInfo: {
   title: string
   url: string
   desc?: string

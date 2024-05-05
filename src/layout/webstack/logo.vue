@@ -4,9 +4,20 @@
 
 <template>
   <div class="logo">
-    <img src="/logo.png" width="197" height="80" alt="website-nav-logo" />
+    <img
+      src="/logo.png"
+      width="197"
+      height="80"
+      alt="website-nav-logo"
+    >
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  name: 'WebsiteLogo',
+}
+</script>
 
 <style lang="less">
 .logo {

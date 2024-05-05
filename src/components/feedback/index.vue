@@ -4,6 +4,10 @@ import { reactive, ref } from 'vue'
 import { createWebsite, goAuthorize } from '@/apis/github'
 import { useGithubAccess, useGlobalFeedbackVisible } from '@/store'
 
+defineOptions({
+  name: 'FeedbackBtn',
+})
+
 const isActive = useGlobalFeedbackVisible()
 const isSubmitSuccess = ref(false)
 const formRef = ref<FormInstance>()
@@ -61,29 +65,50 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <div class="feedback" title="添加链接" @click="handleToggleFeedback">
+  <div
+    class="feedback"
+    title="添加链接"
+    @click="handleToggleFeedback"
+  >
     <i
       class="i-fa-plus"
       :class="{
         active: isActive,
       }"
-    ></i>
+    />
 
     <Teleport to="body">
       <transition name="pop">
-        <div v-show="isActive" class="feedback-modal">
-          <h3 style="text-align: center; margin-top: 0">添加导航</h3>
+        <div
+          v-show="isActive"
+          class="feedback-modal"
+        >
+          <h3 style="text-align: center; margin-top: 0">
+            添加导航
+          </h3>
           <el-form
             ref="formRef"
             :model="form"
             label-position="top"
             :rules="rules"
           >
-            <el-form-item label="网站标题" prop="title">
-              <el-input v-model="form.title" placeholder="请输入网站标题" />
+            <el-form-item
+              label="网站标题"
+              prop="title"
+            >
+              <el-input
+                v-model="form.title"
+                placeholder="请输入网站标题"
+              />
             </el-form-item>
-            <el-form-item label="网站链接" prop="url">
-              <el-input v-model="form.url" placeholder="请输入网站链接" />
+            <el-form-item
+              label="网站链接"
+              prop="url"
+            >
+              <el-input
+                v-model="form.url"
+                placeholder="请输入网站链接"
+              />
             </el-form-item>
             <el-form-item label="网站简介">
               <el-input
@@ -101,7 +126,10 @@ const handleSubmit = async () => {
               round
               @click="goAuthorize"
             >
-              <i class="i-fa-github" style="margin-right: 10px"></i>
+              <i
+                class="i-fa-github"
+                style="margin-right: 10px"
+              />
               使用 github 登录
             </el-button>
             <el-button
@@ -110,8 +138,9 @@ const handleSubmit = async () => {
               :type="isSubmitSuccess ? 'success' : 'primary'"
               :loading="loadingState.submit"
               @click="handleSubmit"
-              >{{ `提交${isSubmitSuccess ? '成功' : ''}` }}</el-button
             >
+              {{ `提交${isSubmitSuccess ? '成功' : ''}` }}
+            </el-button>
           </el-form>
         </div>
       </transition>

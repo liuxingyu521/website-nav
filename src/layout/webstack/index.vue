@@ -9,6 +9,10 @@ import Search from '@/components/search/index.vue'
 import Feedback from '@/components/feedback/index.vue'
 import { isSmallScreen } from '@/composables/media-query'
 
+defineOptions({
+  name: 'WebStackLayout',
+})
+
 const props = defineProps({
   menus: {
     type: Array,
@@ -39,7 +43,10 @@ const sideMenus = props.menus.concat({
 </script>
 
 <template>
-  <SideNav v-model:isActive="isSideNavActive" :menus="sideMenus" />
+  <SideNav
+    v-model:isActive="isSideNavActive"
+    :menus="sideMenus"
+  />
   <div class="nav-container">
     <div
       v-if="isSmallScreen"
@@ -48,15 +55,24 @@ const sideMenus = props.menus.concat({
       <Logo />
       <div class="nav-container__top--mobile-right">
         <Search />
-        <span class="menu" @click="toggleSideNav">
+        <span
+          class="menu"
+          @click="toggleSideNav"
+        >
           <i class="i-fa-bars" />
         </span>
       </div>
     </div>
-    <div v-else class="nav-container__top">
+    <div
+      v-else
+      class="nav-container__top"
+    >
       <Search>
         <div class="nav-container__top-search">
-          <i class="i-fa-search" style="margin: 3px 10px 0 0"></i>
+          <i
+            class="i-fa-search"
+            style="margin: 3px 10px 0 0"
+          />
           <span style="margin-top: 4px">站内搜索</span>
           <span class="nav-container__top-search__shortcut"> ⌘ K </span>
         </div>
@@ -75,7 +91,7 @@ const sideMenus = props.menus.concat({
     class="mask"
     :class="[isSideNavActive && 'mask--active']"
     @click="toggleSideNav"
-  ></div>
+  />
 </template>
 
 <style lang="less">

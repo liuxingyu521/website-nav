@@ -12,8 +12,11 @@ defineProps({
 
 <template>
   <div class="nav-section">
-    <h4 :id="section.title.replace(/\s/, '_')" class="nav-section__title">
-      <i class="i-fa-tags"></i>
+    <h4
+      :id="section.title.replace(/\s/, '_')"
+      class="nav-section__title"
+    >
+      <i class="i-fa-tags" />
       {{ section.title }}
     </h4>
     <div class="nav-section__content">
@@ -22,7 +25,10 @@ defineProps({
         :key="link.url"
         class="nav-section__item"
       >
-        <a :href="link.url" target="_blank">
+        <a
+          :href="link.url"
+          target="_blank"
+        >
           <div class="nav-section__item__left">
             <client-only>
               <LazyloadImage
@@ -41,7 +47,9 @@ defineProps({
             <p class="nav-section__item__right__desc">{{ link.description }}</p>
           </div>
         </a>
-        <div class="nav-section__item__tip">{{ link.url }}</div>
+        <div class="nav-section__item__tip">
+          {{ link.url }}
+        </div>
       </div>
     </div>
   </div>

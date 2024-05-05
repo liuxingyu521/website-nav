@@ -1,19 +1,24 @@
 <script lang="ts" setup>
 import { BaseTransitionProps, ref, watch } from 'vue'
 import Logo from './logo.vue'
+import type { IMenuItem } from '@/config/websites'
 
-const props = defineProps({
-  menus: Array,
-  isActive: Boolean,
+defineOptions({
+  name: 'SideNav',
 })
+
+const props = defineProps<{
+  menus: IMenuItem[]
+  isActive: boolean
+}>()
 const emit = defineEmits(['update:isActive'])
 
-const innerMenus = ref<any[]>([])
+const innerMenus = ref<IMenuItem[]>([])
 
 watch(
   () => props.menus,
-  (newMenus: any) => {
-    innerMenus.value = newMenus.map((item: any) => {
+  (newMenus) => {
+    innerMenus.value = newMenus.map((item) => {
       const menu = { ...item }
 
       if (menu.subMenu) {
@@ -23,7 +28,7 @@ watch(
       return menu
     })
   },
-  { immediate: true }
+  { immediate: true },
 )
 
 const goToAnchor = (id: string) => {
@@ -37,7 +42,7 @@ const goToAnchor = (id: string) => {
     ?.scrollTo({ top: (target?.offsetTop || 0) - 30, behavior: 'smooth' })
 }
 
-const toggleExpand = (menu: any) => {
+const toggleExpand = (menu: IMenuItem) => {
   innerMenus.value = innerMenus.value.map((item) => {
     if (item.title === menu.title) {
       item.isExpand = !item.isExpand
@@ -74,25 +79,31 @@ const leave: BaseTransitionProps['onLeave'] = (el, done) => {
 </script>
 
 <template>
-  <div class="sidenav" :class="[isActive && 'sidenav--active']">
+  <div
+    class="sidenav"
+    :class="[isActive && 'sidenav--active']"
+  >
     <div class="sidenav__top">
       <Logo />
     </div>
     <ul class="sidenav__list">
-      <li v-for="menu in innerMenus" :key="menu.title">
+      <li
+        v-for="menu in innerMenus"
+        :key="menu.title"
+      >
         <template v-if="menu.subMenu">
           <span
             class="sidenav__list__item multiple"
             @click="toggleExpand(menu)"
           >
             <span>
-              <i :class="[menu.icon || 'i-fa-bookmark-o']"></i>
+              <i :class="[menu.icon || 'i-fa-bookmark-o']" />
               <span>{{ menu.title }}</span>
             </span>
             <span
               class="arrow i-fa-angle-right"
               :class="[menu.isExpand ? 'arrow--expand' : '']"
-            ></span>
+            />
           </span>
           <transition
             :css="false"
@@ -100,7 +111,10 @@ const leave: BaseTransitionProps['onLeave'] = (el, done) => {
             @after-enter="afterEnter"
             @leave="leave"
           >
-            <ul v-if="menu.isExpand" class="sidenav__list__second">
+            <ul
+              v-if="menu.isExpand"
+              class="sidenav__list__second"
+            >
               <li
                 v-for="(m, index) in menu.subMenu"
                 :key="m.title"
@@ -124,7 +138,7 @@ const leave: BaseTransitionProps['onLeave'] = (el, done) => {
           class="sidenav__list__item"
           @click="goToAnchor(menu.title.replace(/\s/, '_'))"
         >
-          <i :class="menu.icon"></i>
+          <i :class="menu.icon" />
           <span>{{ menu.title }}</span>
         </span>
       </li>

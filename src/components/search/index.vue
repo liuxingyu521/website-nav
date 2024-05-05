@@ -4,6 +4,10 @@ import { useMagicKeys } from '@vueuse/core'
 import type { ILink } from '@/config/websites'
 import { AllLinks } from '@/config/websites'
 
+defineOptions({
+  name: 'SearchComp',
+})
+
 const isShow = ref(false)
 const searchValue = ref()
 const searchResults = ref<ILink[]>([])
@@ -22,12 +26,12 @@ const handleOpenSearch = () => {
 const handleSearch = (e: any) => {
   const value = e.target.value
 
-  searchResults.value =
-    value.length > 0
+  searchResults.value
+    = value.length > 0
       ? AllLinks.filter(
-          (item) =>
-            item.description.includes(value) || item.title.includes(value)
-        )
+        item =>
+          item.description.includes(value) || item.title.includes(value),
+      )
       : []
 }
 
@@ -53,18 +57,28 @@ watch(meta_k, (isClickMetaK) => {
 </script>
 
 <template>
-  <span title="站内搜索" @click="handleOpenSearch">
+  <span
+    title="站内搜索"
+    @click="handleOpenSearch"
+  >
     <slot>
       <span class="search">
-        <i class="i-fa-search"></i>
+        <i class="i-fa-search" />
       </span>
     </slot>
   </span>
 
   <Teleport to="body">
     <Transition name="modal">
-      <div v-if="isShow" class="modal-mask" @click="isShow = false">
-        <div class="modal-container" @click.stop>
+      <div
+        v-if="isShow"
+        class="modal-mask"
+        @click="isShow = false"
+      >
+        <div
+          class="modal-container"
+          @click.stop
+        >
           <div class="modal-header">
             <input
               ref="inputRef"
@@ -72,7 +86,7 @@ watch(meta_k, (isClickMetaK) => {
               placeholder="站内搜索关键词"
               class="modal-header__input"
               @input="handleSearch"
-            />
+            >
             <div class="modal-header__total">
               {{ `${searchResults.length} 条结果` }}
             </div>
@@ -89,7 +103,9 @@ watch(meta_k, (isClickMetaK) => {
               <div class="search-result__item-title">
                 {{ `${i + 1}、 ${item.title}` }}
               </div>
-              <div class="search-result__item-desc">{{ item.description }}</div>
+              <div class="search-result__item-desc">
+                {{ item.description }}
+              </div>
             </div>
           </div>
         </div>

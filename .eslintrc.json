@@ -1,6 +1,0 @@
-{
-  "extends": ["@liuxingyu521"],
-  "rules": {
-    "no-console": "warn"
-  }
-}
