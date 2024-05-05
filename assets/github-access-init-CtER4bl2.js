@@ -1,0 +1,1 @@
+import{u as a,a as o,g as i}from"./app-D6K5G9OF.js";const r=async function(){const e=Object.fromEntries(new URL(location.href).searchParams),s=a(),t=o();if(e.code){const c=await i(e.code);c&&(s.value=c,t.value=!0,history.replaceState(null,document.title,`${location.origin}${location.pathname}`))}};export{r as checkGithubAccess};
