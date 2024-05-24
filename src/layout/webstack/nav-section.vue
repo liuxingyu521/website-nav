@@ -35,10 +35,9 @@ defineProps({
                 :src="
                   link.logo
                     ? `/assets/logos/${link.logo}`
-                    : '/default-link.png'
+                    : ''
                 "
                 :alt="link.title"
-                default-src="/default-link.png"
               />
             </client-only>
           </div>
