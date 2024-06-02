@@ -65,6 +65,15 @@ subMenu:
         description: 免版权可商用图片，类似 Unsplash
         url: https://picography.co/
         logo: ""
+      - title: stockcake
+        description: 无版权的AI图片，各种场景
+        url: https://stockcake.com/
+        logo: ""
+      - title: htmlrev
+        description: 1500+免费html模板，各类页面，框架分类
+        url: https://htmlrev.com/
+
+        logo: ""
   - title: 灵感来源
     links:
       - title: 优优网
