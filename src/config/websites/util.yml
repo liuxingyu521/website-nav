@@ -11,6 +11,10 @@ subMenu:
         description: 在线分析网站的信息
         url: https://web-check.xyz/
         logo: ""
+      - title: semrush
+        description: SEO查询工具
+        url: https://semrush.com
+        logo: ""
   - title: 搜索相关
     links:
       - title: you.com
@@ -20,6 +24,10 @@ subMenu:
       - title: grep.app
         description: 根据代码搜索github仓库
         url: https://grep.app/
+        logo: ""
+      - title: 互联网档案库
+        description: 互联网上各种信息归档记录查看
+        url: https://archive.org/
         logo: ""
   - title: 生成相关
     links:

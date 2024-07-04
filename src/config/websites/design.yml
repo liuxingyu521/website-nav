@@ -72,7 +72,10 @@ subMenu:
       - title: htmlrev
         description: 1500+免费html模板，各类页面，框架分类
         url: https://htmlrev.com/
-
+        logo: ""
+      - title: wallpaper.mob
+        description: PC/手机壁纸搜索下载
+        url: https://wallpaper.mob.org/pc/
         logo: ""
   - title: 灵感来源
     links:
