@@ -172,6 +172,10 @@ subMenu:
         description: 在线文件转换，文件压缩
         url: https://compress-video.file-converter-online.com/
         logo: ""
+      - title: soconvert
+        description: svg 转 png，可以调整尺寸
+        url: https://soconvert.com/zh-Hans/svgtopng
+        logo: ""
   - title: 分析工具
     links:
       - title: analyzemyrepo
