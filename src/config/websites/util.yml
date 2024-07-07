@@ -131,6 +131,10 @@ subMenu:
         description: 自制梗图+文字
         url: https://www.diydoutu.com/diy/doutu
         logo: ""
+      - title: shots
+        description: 制作好看的 mockup 产品图
+        url: https://shots.so/
+        logo: ""
   - title: 文件工具
     links:
       - title: tinypng
