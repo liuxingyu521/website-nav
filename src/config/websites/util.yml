@@ -1,6 +1,41 @@
 title: 实用工具
 icon: i-fa-wrench
 subMenu:
+  - title: 搜索相关/AI Chat
+    top: true
+    links:
+      - title: Kimi
+        description: 月之暗面AI助手
+        url: https://kimi.moonshot.cn/
+        logo: ""
+      - title: opkfc
+        description: 数字玩家共享GPT
+        url: https://www.opkfc.com/
+        logo: ""
+      - title: deepseek
+        description: 深度求索AGI
+        url: https://chat.deepseek.com/
+        logo: ""
+      - title: 智谱清言
+        description: 生成式AI助手(可画图)
+        url: https://chatglm.cn/main/alltoolsdetail
+        logo: ""
+      - title: you.com
+        description: AI搜索引擎、对话、绘图写作等
+        url: https://you.com/
+        logo: ""
+      - title: 橙篇
+        description: AI协作应用，文心大模型和百度文库
+        url: https://cp.baidu.com/
+        logo: ""
+      - title: grep.app
+        description: 根据代码搜索github仓库
+        url: https://grep.app/
+        logo: ""
+      - title: 互联网档案库
+        description: 互联网上各种信息归档记录查看
+        url: https://archive.org/
+        logo: ""
   - title: 网站相关
     links:
       - title: 站长工具
@@ -14,20 +49,6 @@ subMenu:
       - title: semrush
         description: SEO查询工具
         url: https://semrush.com
-        logo: ""
-  - title: 搜索相关
-    links:
-      - title: you.com
-        description: AI搜索引擎、对话、绘图写作等
-        url: https://you.com/
-        logo: ""
-      - title: grep.app
-        description: 根据代码搜索github仓库
-        url: https://grep.app/
-        logo: ""
-      - title: 互联网档案库
-        description: 互联网上各种信息归档记录查看
-        url: https://archive.org/
         logo: ""
   - title: 生成相关
     links:

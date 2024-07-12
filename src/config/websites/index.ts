@@ -23,6 +23,7 @@ export interface IMenuItem {
   icon: string
   subMenu: {
     title: string
+    top?: boolean
     links: ILink[]
   }[]
   isExpand?: boolean

@@ -11,7 +11,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="nav-section">
+  <div :class="['nav-section', {'nav-section--top': section.top}]">
     <h4
       :id="section.title.replace(/\s/, '_')"
       class="nav-section__title"
@@ -57,12 +57,16 @@ defineProps({
 <style lang="less">
 .nav-section {
   color: #555;
-  padding: 0 30px;
-  margin-bottom: 36px;
+  padding: 10px 30px 20px;
+
+  &--top {
+    background: rgba(148, 217, 234, 0.42);
+  }
 
   &__title {
     font-size: 17px;
     font-weight: 400;
+    margin: 16px 0 20px;
 
     i {
       margin-right: 7px;
@@ -81,8 +85,8 @@ defineProps({
     padding: 12px 15px;
     background: #fff;
     border-radius: 4px;
-    border: 1px solid #e4ecf3;
     transition: all 0.3s ease;
+    box-shadow: 1px 1px 12px 0px #d4e0e8;
 
     @media (max-width: 1440px) {
       width: 28%;
