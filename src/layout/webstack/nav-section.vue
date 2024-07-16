@@ -82,7 +82,6 @@ defineProps({
   &__item {
     position: relative;
     width: 22%;
-    padding: 12px 15px;
     background: #fff;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -103,15 +102,7 @@ defineProps({
       align-items: center;
       text-decoration: none;
       color: inherit;
-
-      &::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-      }
+      padding: 12px 15px;
     }
 
     &__tip {
