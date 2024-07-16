@@ -1,0 +1,86 @@
+{
+  "title": "AI相关",
+  "icon": "i-fa-lightbulb-o",
+  "subMenu": [
+    {
+      "title": "工具类",
+      "links": [
+        {
+          "title": "AI法律助手",
+          "description": "AI 检索法律文件后生成相应的回答",
+          "url": "https://law-cn-ai.vercel.app/",
+          "logo": ""
+        },
+        {
+          "title": "Logo maker",
+          "description": "使用 AI 生成 Logo",
+          "url": "https://logomakerr.ai/",
+          "logo": ""
+        },
+        {
+          "title": "perplexity",
+          "description": "免费使用 AI",
+          "url": "https://www.perplexity.ai/",
+          "logo": ""
+        }
+      ]
+    },
+    {
+      "title": "创意类",
+      "links": [
+        {
+          "title": "character.ai",
+          "description": "和专属角色进行AI对话",
+          "url": "https://beta.character.ai/",
+          "logo": ""
+        }
+      ]
+    },
+    {
+      "title": "音乐类",
+      "links": [
+        {
+          "title": "soundraw",
+          "description": "AI为你生成免版税音乐",
+          "url": "https://soundraw.io/",
+          "logo": ""
+        }
+      ]
+    },
+    {
+      "title": "其他AI导航",
+      "links": [
+        {
+          "title": "vondy AI 工具",
+          "description": "AI 分类导航",
+          "url": "https://www.vondy.com/explore",
+          "logo": ""
+        },
+        {
+          "title": "ai-bot",
+          "description": "AI 工具集",
+          "url": "https://ai-bot.cn/",
+          "logo": ""
+        },
+        {
+          "title": "mojidoc",
+          "description": "AI 工具分类",
+          "url": "https://www.mojidoc.com/08z7y-e43hjtkw3rglpkfnsqrgkuyyey-00b",
+          "logo": ""
+        },
+        {
+          "title": "woy.ai",
+          "description": "收集各类 top AI 工具",
+          "url": "https://woy.ai/",
+          "logo": ""
+        },
+        {
+          "title": "chatgptguidess",
+          "description": "chatGPT 资源网",
+          "url": "https://chatgptguidess.com/",
+          "logo": ""
+        }
+      ]
+    }
+  ]
+}

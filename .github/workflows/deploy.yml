@@ -24,8 +24,6 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install
-      - name: check & build new logos
-        run: pnpm build:logos
       - name: Build Project
         env:
           VITE_API_HOST: ${{ secrets.VITE_API_HOST }}

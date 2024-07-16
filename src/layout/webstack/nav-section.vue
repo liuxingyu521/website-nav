@@ -34,7 +34,7 @@ defineProps({
               <LazyloadImage
                 :src="
                   link.logo
-                    ? `/assets/logos/${link.logo}`
+                    ? `/assets/${link.logo}`
                     : ''
                 "
                 :alt="link.title"
