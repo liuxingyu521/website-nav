@@ -1,0 +1,176 @@
+{
+  "title": "设计相关",
+  "icon": "i-fa-paint-brush",
+  "subMenu": [
+    {
+      "title": "icon图标",
+      "links": [
+        {
+          "title": "icones",
+          "description": "各种类型的icon图标，供代码中引用",
+          "url": "https://icones.js.org/",
+          "logo": "icones.png"
+        },
+        {
+          "title": "flaticon",
+          "description": "免费下载icon和贴纸",
+          "url": "https://www.flaticon.com/",
+          "logo": "flaticon.png"
+        },
+        {
+          "title": "icons",
+          "description": "收集了很多图标、插图、音乐、设计工具等",
+          "url": "https://igoutu.cn/",
+          "logo": "icons.png"
+        },
+        {
+          "title": "worldvectorlogo",
+          "description": "收录了世界各地的矢量 LOGO图标",
+          "url": "https://worldvectorlogo.com/",
+          "logo": "worldvectorlogo.ico"
+        },
+        {
+          "title": "iconbolt",
+          "description": "7w多个SVG 图标的仓库,免费使用",
+          "url": "https://www.iconbolt.com/",
+          "logo": "iconbolt.svg"
+        },
+        {
+          "title": "tabler-icons",
+          "description": "一组超过 3400 个免费的 MIT 许可的高质量 SVG 图标",
+          "url": "https://tabler.io/icons",
+          "logo": "tabler-icons.ico"
+        },
+        {
+          "title": "animated-icons",
+          "description": "动态图标下载、制作",
+          "url": "https://icons8.com/animated-icons",
+          "logo": "animated-icons.png"
+        },
+        {
+          "title": "iconbuddy",
+          "description": "下载、定制、编辑和个性化,超过 100k+ 开源图标",
+          "url": "https://iconbuddy.app/",
+          "logo": "iconbuddy.ico"
+        }
+      ]
+    },
+    {
+      "title": "设计资源",
+      "links": [
+        {
+          "title": "中国色",
+          "description": "罗列了中国的传统色彩，界面过渡流畅治愈",
+          "url": "http://zhongguose.com/",
+          "logo": "中国色.ico"
+        },
+        {
+          "title": "中国色彩",
+          "description": "罗列了中国的传统色彩，UI设计更加漂亮",
+          "url": "https://chinese-colors.heyfe.org/",
+          "logo": "中国色彩.png"
+        },
+        {
+          "title": "storyset",
+          "description": "提供免费的插画图",
+          "url": "https://storyset.com/",
+          "logo": "storyset.svg"
+        },
+        {
+          "title": "loosedrawing",
+          "description": "插图网站，可改配色",
+          "url": "https://loosedrawing.com/",
+          "logo": "loosedrawing.ico"
+        },
+        {
+          "title": "htmlrev",
+          "description": "免费提供多个 landing page 样式供下载",
+          "url": "https://htmlrev.com/",
+          "logo": "htmlrev.png"
+        },
+        {
+          "title": "wallhaven",
+          "description": "壁纸下载",
+          "url": "https://wallhaven.cc/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "picography",
+          "description": "免版权可商用图片，类似 Unsplash",
+          "url": "https://picography.co/",
+          "logo": "picography.ico"
+        },
+        {
+          "title": "stockcake",
+          "description": "无版权的AI图片，各种场景",
+          "url": "https://stockcake.com/",
+          "logo": "stockcake.png"
+        },
+        {
+          "title": "htmlrev",
+          "description": "1500+免费html模板，各类页面，框架分类",
+          "url": "https://htmlrev.com/",
+          "logo": "htmlrev.png"
+        },
+        {
+          "title": "wallpaper.mob",
+          "description": "PC/手机壁纸搜索下载",
+          "url": "https://wallpaper.mob.org/pc/",
+          "logo": "wallpaper.mob.ico"
+        }
+      ]
+    },
+    {
+      "title": "灵感来源",
+      "links": [
+        {
+          "title": "优优网",
+          "description": "网页灵感采集、网页模板、设计相关",
+          "url": "https://uiiiuiii.com/inspirations/ui",
+          "logo": "优优网.ico"
+        },
+        {
+          "title": "pagecollective",
+          "description": "PC端页面收藏，找页面布局灵感",
+          "url": "https://pagecollective.com/",
+          "logo": "pagecollective.png"
+        },
+        {
+          "title": "screenlane",
+          "description": "移动端页面收藏，找设计灵感",
+          "url": "https://screenlane.com/",
+          "logo": "screenlane.png"
+        },
+        {
+          "title": "webdesignerdepot",
+          "description": "设计网站&博客，界面可定制",
+          "url": "https://www.webdesignerdepot.com",
+          "logo": "webdesignerdepot.ico"
+        },
+        {
+          "title": "xmind 脑图合集",
+          "description": "可以从一些优秀案例提取灵感，制作更清晰好看的脑图",
+          "url": "https://xmind.app/share/",
+          "logo": "xmind脑图合集.ico"
+        },
+        {
+          "title": "即时 AI 灵感库",
+          "description": "发现创作灵感",
+          "url": "https://jsai.app/ai/muses?fsmode=JS-UIbotics&fsdevice=web",
+          "logo": "jsai.ico"
+        }
+      ]
+    },
+    {
+      "title": "在线设计",
+      "links": [
+        {
+          "title": "pixso",
+          "description": "在线设计协作工具，丰富的设计资源",
+          "url": "https://pixso.cn/",
+          "logo": "pixso.ico"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "title": "实用工具",
+  "icon": "i-fa-wrench",
+  "subMenu": [
+    {
+      "title": "搜索相关/AI Chat",
+      "top": true,
+      "links": [
+        {
+          "title": "Kimi",
+          "description": "月之暗面AI助手",
+          "url": "https://kimi.moonshot.cn/",
+          "logo": "kimi.ico"
+        },
+        {
+          "title": "opkfc",
+          "description": "数字玩家共享GPT",
+          "url": "https://www.opkfc.com/",
+          "logo": "opkfc.ico"
+        },
+        {
+          "title": "deepseek",
+          "description": "深度求索AGI",
+          "url": "https://chat.deepseek.com/",
+          "logo": "deepseek.svg"
+        },
+        {
+          "title": "智谱清言",
+          "description": "生成式AI助手(可画图)",
+          "url": "https://chatglm.cn/main/alltoolsdetail",
+          "logo": "智谱清言.ico"
+        },
+        {
+          "title": "you.com",
+          "description": "AI搜索引擎、对话、绘图写作等",
+          "url": "https://you.com/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "橙篇",
+          "description": "AI协作应用，文心大模型和百度文库",
+          "url": "https://cp.baidu.com/",
+          "logo": "橙篇.ico"
+        },
+        {
+          "title": "grep.app",
+          "description": "根据代码搜索github仓库",
+          "url": "https://grep.app/",
+          "logo": "grep.app.png"
+        },
+        {
+          "title": "互联网档案库",
+          "description": "互联网上各种信息归档记录查看",
+          "url": "https://archive.org/",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "网站相关",
+      "links": [
+        {
+          "title": "站长工具",
+          "description": "站长常用工具，提供 seo/ip/域名/网速/友情链接/权重等查询服务",
+          "url": "https://tool.chinaz.com/Tools/Unicode.aspx",
+          "logo": "chinaz.png"
+        },
+        {
+          "title": "web-check",
+          "description": "在线分析网站的信息",
+          "url": "https://web-check.xyz/",
+          "logo": "web-check.ico"
+        },
+        {
+          "title": "semrush",
+          "description": "SEO查询工具",
+          "url": "https://semrush.com",
+          "logo": "semrush.ico"
+        }
+      ]
+    },
+    {
+      "title": "生成相关",
+      "links": [
+        {
+          "title": "Carbon",
+          "description": "制作美化后的代码片段图像，支持各类语言",
+          "url": "https://carbon.now.sh/",
+          "logo": "carbon.png"
+        },
+        {
+          "title": "shields 徽章",
+          "description": "制作各种状态的徽章，比如版本，构建状态，测试状态等",
+          "url": "https://shields.io/",
+          "logo": "shields-io.svg"
+        },
+        {
+          "title": "looka",
+          "description": "在线生成logo的工具，有多种样式可供选择",
+          "url": "https://looka.com/",
+          "logo": "looka.png"
+        },
+        {
+          "title": "codelf",
+          "description": "变量命名神器，根据输入的名称返回合理的变量命名列表",
+          "url": "https://unbug.github.io/codelf/",
+          "logo": "codelf.png"
+        },
+        {
+          "title": "gitignore.io",
+          "description": "根据操作系统/IDE/编程语言等来生成相应的 .gitignore 内容",
+          "url": "https://www.toptal.com/developers/gitignore",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "lastpass 密码生成器",
+          "description": "随机生成密码，各种字符数字组合",
+          "url": "https://www.lastpass.com/features/password-generator",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "gh-profile-readme-generator",
+          "description": "快速生成丰富的 Github README 个人介绍页",
+          "url": "https://rahuldkjain.github.io/gh-profile-readme-generator/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "typing svg",
+          "description": "生成打字特效 svg",
+          "url": "https://readme-typing-svg.demolab.com/demo/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "vectorizer",
+          "description": "将图像转换为可缩放矢量图形",
+          "url": "https://www.vectorizer.io/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "readme.so",
+          "description": "生成项目README的可视界面",
+          "url": "https://readme.so/",
+          "logo": "readme.so.png"
+        },
+        {
+          "title": "substats",
+          "description": "获取各种社交平台的订阅数，以 Badge 的形式展示",
+          "url": "https://substats.spencerwoo.com/builder/",
+          "logo": "substats.png"
+        },
+        {
+          "title": "trianglify",
+          "description": "生成由很多三角形组成的渐变背景图片",
+          "url": "https://trianglify.io",
+          "logo": "trianglify.png"
+        },
+        {
+          "title": "border radius 图形",
+          "description": "生成不同造型的 border-radius",
+          "url": "https://9elements.github.io/fancy-border-radius",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "getwaves",
+          "description": "生成波浪形状的svg图形，用于背景",
+          "url": "https://getwaves.io",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "haikei",
+          "description": "生成多样化背景图",
+          "url": "https://app.haikei.app",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "shapedivider",
+          "description": "可提供提供分界线样式的 svg 作为背景",
+          "url": "https://www.shapedivider.app",
+          "logo": "shapedivider.ico"
+        },
+        {
+          "title": "fffuel",
+          "description": "颜色工具、调色板和免费 SVG 生成器的集合，用于渐变、图案、纹理、形状和背景",
+          "url": "https://fffuel.co",
+          "logo": "fffuel.ico"
+        },
+        {
+          "title": "tempmail",
+          "description": "临时生成邮箱使用",
+          "url": "https://tempmail.plus/zh/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "starchart",
+          "description": "绘制 github 仓库的 star 趋势图",
+          "url": "https://starchart.cc",
+          "logo": "starchart.svg"
+        },
+        {
+          "title": "github stargazer 展示视频",
+          "description": "生成 github 的 star 里程碑视频",
+          "url": "https://github.com/pomber/stargazer",
+          "logo": "githubstargazer展示视频.ico"
+        },
+        {
+          "title": "jellylade",
+          "description": "屏幕截图 mockup",
+          "url": "https://app.jellylade.com/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "magiconch",
+          "description": "梗图生成器",
+          "url": "https://x.magiconch.com/",
+          "logo": "magiconch.ico"
+        },
+        {
+          "title": "22.do",
+          "description": "临时谷歌邮箱",
+          "url": "https://22.do/",
+          "logo": "22.do.ico"
+        },
+        {
+          "title": "mycolor",
+          "description": "生成渐变色，给定一个颜色，生成相关色系",
+          "url": "https://mycolor.space/",
+          "logo": "mycolor.png"
+        },
+        {
+          "title": "DIY斗图",
+          "description": "自制梗图+文字",
+          "url": "https://www.diydoutu.com/diy/doutu",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "shots",
+          "description": "制作好看的 mockup 产品图",
+          "url": "https://shots.so/",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "文件工具",
+      "links": [
+        {
+          "title": "tinypng",
+          "description": "在线图片压缩，批量压缩，WebP、PNG和JPEG图像优化50-80%",
+          "url": "https://tinypng.com/",
+          "logo": "tinypng.png"
+        },
+        {
+          "title": "Optimizilla",
+          "description": "图片压缩，可调节压缩质量",
+          "url": "https://imagecompressor.com/zh/",
+          "logo": "optimizilla.png"
+        },
+        {
+          "title": "youcompress",
+          "description": "各种类型文件的压缩，MP4, MOV, MP3, PDF, PNG, JPG, JPEG, GIF",
+          "url": "https://www.youcompress.com/",
+          "logo": "youcompress.ico"
+        },
+        {
+          "title": "onlineconvertfree",
+          "description": "在线转换文件格式，又免费又快",
+          "url": "https://onlineconvertfree.com/zh/",
+          "logo": "onlineconvertfree.png"
+        },
+        {
+          "title": "docsmall",
+          "description": "jpg/png/gif/pdf 压缩，pdf合并，pdf分割",
+          "url": "https://docsmall.com/image-compress",
+          "logo": "docsmall.png"
+        },
+        {
+          "title": "PDF 派",
+          "description": "pdf和其他文件类型互相转换的工具，无限次使用，永久免费",
+          "url": "https://www.pdfpai.com/",
+          "logo": "pdf-pai.png"
+        },
+        {
+          "title": "SVG 编辑器",
+          "description": "编辑/导出 svg",
+          "url": "https://c.runoob.com/more/svgeditor/",
+          "logo": "svg-editor.png"
+        },
+        {
+          "title": "svgo",
+          "description": "优化 svg 代码的工具，去掉冗余的字符",
+          "url": "https://github.com/svg/svgo",
+          "logo": "svgo.ico"
+        },
+        {
+          "title": "tinywow",
+          "description": "免费工具，用来处理文字、图片、视频、PDF等",
+          "url": "https://tinywow.com",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "file-converter",
+          "description": "在线文件转换，文件压缩",
+          "url": "https://compress-video.file-converter-online.com/",
+          "logo": "file-converter.svg"
+        },
+        {
+          "title": "soconvert",
+          "description": "svg 转 png，可以调整尺寸",
+          "url": "https://soconvert.com/zh-Hans/svgtopng",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "分析工具",
+      "links": [
+        {
+          "title": "analyzemyrepo",
+          "description": "用于了解任何 GitHub 存储库的贡献活跃度",
+          "url": "https://analyzemyrepo.com/",
+          "logo": "analyzemyrepo.png"
+        },
+        {
+          "title": "npm-unpkg",
+          "description": "快捷查看npm包发布后的目录文件",
+          "url": "https://uiwjs.github.io/npm-unpkg/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "bundlephobia",
+          "description": "在线查看分析npm包的大小及构成",
+          "url": "https://bundlephobia.com/",
+          "logo": "bundlephobia.svg"
+        },
+        {
+          "title": "npmgraph",
+          "description": "查看npm包的拓扑关系图",
+          "url": "https://npmgraph.js.org/",
+          "logo": "npmgraph.png"
+        },
+        {
+          "title": "npm devtool",
+          "description": "查看分析npm包的大小和依赖，以及相关包推荐",
+          "url": "https://npm.devtool.tech/",
+          "logo": "npmdevtool.ico"
+        },
+        {
+          "title": "pkg-size",
+          "description": "分析包大小和依赖，使用 web container 进行安装下载",
+          "url": "https://pkg-size.dev/",
+          "logo": "pkg-size.svg"
+        },
+        {
+          "title": "ip info",
+          "description": "查看 ip 相关信息",
+          "url": "https://ipinfo.io/",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "演示工具",
+      "links": [
+        {
+          "title": "演说",
+          "description": "用于分析 GitHub 存储库的贡献活跃度",
+          "url": "https://yanshuo.io/",
+          "logo": "yanshuo.png"
+        }
+      ]
+    },
+    {
+      "title": "开发工具",
+      "links": [
+        {
+          "title": "在线工具 tool",
+          "description": "在线工具,开发人员工具,代码格式化、压缩、加密、解密,下载链接转换,字帖,田字格,进制转换,二维码,正则表达式,json格式化,照片压缩,pdf合并,favicon制作",
+          "url": "https://tool.lu/",
+          "logo": "tool-lu.png"
+        },
+        {
+          "title": "草料二维码",
+          "description": "免费制作出能高效解决业务问题的二维码",
+          "url": "http://cli.im/",
+          "logo": "caoliao.png"
+        },
+        {
+          "title": "bejson",
+          "description": "在线,JSON,JSON 校验,格式化,xml转json,cron表达式 工具",
+          "url": "https://www.bejson.com/",
+          "logo": "bejson.png"
+        },
+        {
+          "title": "简数 mock 数据",
+          "description": "mock 地图数据、jsonp数据、mockjs模板数据接口",
+          "url": "https://data.jianshukeji.com/index.html",
+          "logo": "jianshu-mock.png"
+        },
+        {
+          "title": "菜鸟工具",
+          "description": "为开发设计人员提供在线工具。致力于打造国内专业WEB开发工具，集成开发环境，WEB开发教程",
+          "url": "https://c.runoob.com/",
+          "logo": "菜鸟工具.ico"
+        },
+        {
+          "title": "脚本之家工具库",
+          "description": "常用参考对照表，颜色、编码转换、便民查询、站长相关工具",
+          "url": "http://tools.jb51.net/table",
+          "logo": "脚本之家工具库.ico"
+        },
+        {
+          "title": "mocky",
+          "description": "在线生成&管理mock数据接口",
+          "url": "https://designer.mocky.io/",
+          "logo": "mocky.png"
+        },
+        {
+          "title": "实用工具箱",
+          "description": "js代码格式化,css代码格式化,js代码格式化,加密解密工具,图片处理,图片裁剪,在线二维码生成等各类在线工具",
+          "url": "https://www.idcd.com/tool",
+          "logo": "idcd-tool.png"
+        },
+        {
+          "title": "picsum 占位图",
+          "description": "提供各种风格的占位图片，可设置宽高、灰度、模糊等效果",
+          "url": "https://picsum.photos/",
+          "logo": "picsum.png"
+        },
+        {
+          "title": "油猴中文网",
+          "description": "提供免费油猴脚本插件下载工具",
+          "url": "https://bbs.tampermonkey.net.cn/",
+          "logo": "油猴中文网.ico"
+        },
+        {
+          "title": "upstash",
+          "description": "serverless data for Redis",
+          "url": "https://upstash.com",
+          "logo": "upstash.png"
+        },
+        {
+          "title": "perf.link",
+          "description": "基准测试 benchmark",
+          "url": "https://perf.link/",
+          "logo": "perf.link.png"
+        },
+        {
+          "title": "it-tools",
+          "description": "IT人员的实用工具站",
+          "url": "https://it-tools.tech/",
+          "logo": "it-tools.svg"
+        }
+      ]
+    },
+    {
+      "title": "代码运行",
+      "links": [
+        {
+          "title": "jsrun",
+          "description": "在线运行代码，分享，打包代码包",
+          "url": "https://jsrun.net/",
+          "logo": "jsrun.png"
+        },
+        {
+          "title": "JShare",
+          "description": "一个在线代码测试、托管、分享的工具",
+          "url": "https://jshare.com.cn",
+          "logo": "JShare.ico"
+        },
+        {
+          "title": "riju.codes",
+          "description": "在线运行各种语言代码，无需安装环境",
+          "url": "https://riju.codes/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "stackblitz",
+          "description": "在线提供前后端项目运行环境，快速演示项目",
+          "url": "https://stackblitz.com/",
+          "logo": "stackblitz.svg"
+        }
+      ]
+    },
+    {
+      "title": "代码部署",
+      "links": [
+        {
+          "title": "surge",
+          "description": "快速部署静态网页",
+          "url": "https://surge.sh/",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "存储分享",
+      "links": [
+        {
+          "title": "quicknote",
+          "description": "在线笔记分享",
+          "url": "https://quicknote.io/",
+          "logo": "quicknote.svg"
+        },
+        {
+          "title": "graph.org",
+          "description": "在线文章分享",
+          "url": "https://graph.org/",
+          "logo": "default-link.png"
+        }
+      ]
+    },
+    {
+      "title": "其他工具",
+      "links": [
+        {
+          "title": "cmd markdown编辑器",
+          "description": "作业帮在线 Markdown 编辑阅读器，支持实时同步预览，区分写作和阅读模式，支持在线存储，分享文稿网址。",
+          "url": "https://www.zybuluo.com/mdeditor",
+          "logo": "cmd-markdown.png"
+        },
+        {
+          "title": "mdnice",
+          "description": "一款 Markdown 微信编辑器，海量主题样式、免费的图床，提供文章一键排版，同时支持知乎、掘金、微信订阅号等多个平台。",
+          "url": "https://editor.mdnice.com/",
+          "logo": "mdnice.png"
+        },
+        {
+          "title": "IFTTT",
+          "description": "if this than that. 自动化处理各个软件平台间的事件流",
+          "url": "https://ifttt.com/",
+          "logo": "ifttt.png"
+        },
+        {
+          "title": "asciinema",
+          "description": "录制终端会话，并且可以在web上共享，可复制的命令行展示",
+          "url": "https://asciinema.org/",
+          "logo": "asciinema.png"
+        },
+        {
+          "title": "求字体",
+          "description": "字体下载-提供中文和英文字体库下载、识别与预览服务，找字体的好帮手",
+          "url": "https://www.qiuziti.com/",
+          "logo": "qiuziti.png"
+        },
+        {
+          "title": "Flag counter",
+          "description": "免费统计页面被访问过的国家数量，并以旗帜展示",
+          "url": "https://www.flagcounter.com/index.html",
+          "logo": "Flagcounter.png"
+        },
+        {
+          "title": "jsdocs npm包文档",
+          "description": "解析npm包，并展示相关导出可用方法的站点",
+          "url": "https://www.jsdocs.io/",
+          "logo": "jsdocsnpm包文档.png"
+        },
+        {
+          "title": "gitter.im",
+          "description": "开发者在线沟通的聊天室",
+          "url": "https://gitter.im/",
+          "logo": "gitter.im.ico"
+        },
+        {
+          "title": "font-source",
+          "description": "引用开源字体库",
+          "url": "https://fontsource.org/",
+          "logo": "font-source.png"
+        },
+        {
+          "title": "ossinsight",
+          "description": "分析Github开源项目，数据+视图",
+          "url": "https://ossinsight.io/",
+          "logo": "ossinsight.png"
+        },
+        {
+          "title": "chatwoot",
+          "description": "开源的在线聊天应用，可用作客服",
+          "url": "https://www.chatwoot.com/",
+          "logo": "chatwoot.png"
+        },
+        {
+          "title": "emoji-cheat-sheet",
+          "description": "emoji 格式符号速查表",
+          "url": "https://www.webfx.com/tools/emoji-cheat-sheet/",
+          "logo": "emoji-cheat-sheet.png"
+        },
+        {
+          "title": "dub",
+          "description": "短链接服务，点击分析，也可以自己部署使用",
+          "url": "https://dub.sh",
+          "logo": "dub.png"
+        },
+        {
+          "title": "八九网",
+          "description": "经纬度查询,经纬度定位查询,经纬度地图",
+          "url": "https://bajiu.cn/ditu/?id=20676",
+          "logo": "八九网.ico"
+        },
+        {
+          "title": "receivesms",
+          "description": "国外手机接码平台",
+          "url": "https://www.receivesms.io/",
+          "logo": "default-link.png"
+        },
+        {
+          "title": "collabedit 协同编辑",
+          "description": "在线协同编辑器",
+          "url": "https://collabedit.com/",
+          "logo": "collabedit协同编辑.ico"
+        },
+        {
+          "title": "libhunt",
+          "description": "热门流行开源项目查看和对比",
+          "url": "https://www.libhunt.com/",
+          "logo": "libhunt.png"
+        },
+        {
+          "title": "quick-diff",
+          "description": "在线 diff 文件",
+          "url": "https://quick-diff.com/",
+          "logo": "quick-diff.png"
+        }
+      ]
+    }
+  ]
+}

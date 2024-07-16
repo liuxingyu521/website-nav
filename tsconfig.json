@@ -3,7 +3,7 @@
     "target": "esnext",
     "jsx": "preserve",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,12 +15,14 @@
     },
     "types": [
       "vite/client",
-      "element-plus/global"
+      "element-plus/global",
+      "@types/node"
     ]
   },
   "include": [
     "src/**/*",
     "src/config/data/*",
+    "scripts/*",
     "shims.d.ts"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "title": "其他导航",
+  "icon": "i-fa-connectdevelop",
+  "subMenu": [
+    {
+      "title": "电商相关",
+      "links": [
+        {
+          "title": "tkstart",
+          "description": "AMC 全球电商中文社区",
+          "url": "https://tkstart.com/",
+          "logo": "tkstart.png"
+        }
+      ]
+    }
+  ]
+}
