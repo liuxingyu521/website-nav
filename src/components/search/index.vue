@@ -30,7 +30,7 @@ const handleSearch = (e: any) => {
     = value.length > 0
       ? AllLinks.filter(
         item =>
-          item.description.includes(value) || item.title.includes(value),
+          [item.title, item.description].some(it => new RegExp(value, 'i').test(it)),
       )
       : []
 }
@@ -83,7 +83,7 @@ watch(meta_k, (isClickMetaK) => {
             <input
               ref="inputRef"
               v-model="searchValue"
-              placeholder="站内搜索关键词"
+              placeholder="站内搜索关键词(支持正则)"
               class="modal-header__input"
               @input="handleSearch"
             >
