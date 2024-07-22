@@ -12,6 +12,17 @@
           "logo": "tkstart.png"
         }
       ]
+    },
+    {
+      "title": "设计相关",
+      "links": [
+        {
+          "title": "设计小咖",
+          "description": "设计师导航",
+          "url": "https://www.iamxk.com/navigation",
+          "logo": ""
+        }
+      ]
     }
   ]
 }

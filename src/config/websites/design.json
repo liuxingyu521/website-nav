@@ -158,6 +158,12 @@
           "description": "发现创作灵感",
           "url": "https://jsai.app/ai/muses?fsmode=JS-UIbotics&fsdevice=web",
           "logo": "jsai.ico"
+        },
+        {
+          "title": "onepagelove",
+          "description": "单页面网页灵感",
+          "url": "https://onepagelove.com/",
+          "logo": ""
         }
       ]
     },

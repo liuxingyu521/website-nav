@@ -37,6 +37,12 @@
           "logo": "default-link.png"
         },
         {
+          "title": "memfree",
+          "description": "AI搜索工具",
+          "url": "https://www.memfree.me/",
+          "logo": ""
+        },
+        {
           "title": "橙篇",
           "description": "AI协作应用，文心大模型和百度文库",
           "url": "https://cp.baidu.com/",
@@ -237,6 +243,12 @@
           "description": "制作好看的 mockup 产品图",
           "url": "https://shots.so/",
           "logo": "default-link.png"
+        },
+        {
+          "title": "img-maker",
+          "description": "生成封面图，可自由绘制",
+          "url": "https://img-maker.vercel.app/",
+          "logo": ""
         }
       ]
     },
@@ -449,6 +461,12 @@
           "description": "IT人员的实用工具站",
           "url": "https://it-tools.tech/",
           "logo": "it-tools.svg"
+        },
+        {
+          "title": "ray.so",
+          "description": "raycast出品的工具箱，包含代码截图、icon 制作、prompt/presets、snippet",
+          "url": "https://ray.so/",
+          "logo": ""
         }
       ]
     },
