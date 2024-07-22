@@ -84,7 +84,7 @@
           "title": "openi",
           "description": "AI工具聚合，且包含多种行业的专业导航",
           "url": "https://openi.cn/",
-          "logo": ""
+          "logo": "default-link.png"
         }
       ]
     }

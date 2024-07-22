@@ -40,7 +40,7 @@
           "title": "memfree",
           "description": "AI搜索工具",
           "url": "https://www.memfree.me/",
-          "logo": ""
+          "logo": "memfree.ico"
         },
         {
           "title": "橙篇",
@@ -248,7 +248,7 @@
           "title": "img-maker",
           "description": "生成封面图，可自由绘制",
           "url": "https://img-maker.vercel.app/",
-          "logo": ""
+          "logo": "default-link.png"
         }
       ]
     },
@@ -466,7 +466,7 @@
           "title": "ray.so",
           "description": "raycast出品的工具箱，包含代码截图、icon 制作、prompt/presets、snippet",
           "url": "https://ray.so/",
-          "logo": ""
+          "logo": "ray.so.ico"
         }
       ]
     },
