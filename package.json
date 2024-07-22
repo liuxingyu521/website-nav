@@ -27,7 +27,6 @@
   "devDependencies": {
     "@iconify-json/fa": "^1.1.8",
     "@liuxingyu521/eslint-config": "^2.0.0",
-    "@originjs/vite-plugin-content": "1.0.5",
     "@types/node": "^20.14.10",
     "@vitejs/plugin-vue": "5.0.4",
     "@vueuse/head": "^2.0.0",
