@@ -19,7 +19,7 @@
   },
   "repository": "https://github.com/liuxingyu521/nav",
   "dependencies": {
-    "@unocss/reset": "^0.59.4",
+    "@unocss/reset": "^0.63.0",
     "@vueuse/core": "^10.9.0",
     "element-plus": "^2.7.2",
     "vue": "^3.4.26"
@@ -41,7 +41,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsx": "^4.16.2",
     "typescript": "5.4.5",
-    "unocss": "^0.59.4",
+    "unocss": "^0.63.0",
     "unplugin-auto-import": "0.17.5",
     "unplugin-vue-components": "0.27.0",
     "vite": "^5.2.11",
