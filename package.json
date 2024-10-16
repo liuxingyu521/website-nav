@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "description": "a collection of used website navigation",
   "private": "true",
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.12.2",
   "author": "liuxingyu521",
   "type": "module",
   "license": "MIT",
