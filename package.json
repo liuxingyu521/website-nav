@@ -31,7 +31,7 @@
     "@vitejs/plugin-vue": "5.0.4",
     "@vueuse/head": "^2.0.0",
     "cross-env": "^7.0.3",
-    "eslint": "9.2.0",
+    "eslint": "9.13.0",
     "eslint-plugin-n": "^17.4.0",
     "got": "^14.4.1",
     "less": "4.2.0",
