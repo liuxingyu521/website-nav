@@ -5,7 +5,7 @@ export default defineConfig({
     presetUno(),
     presetIcons({
       extraProperties: {
-        display: 'inline-block',
+        'display': 'inline-block',
         'vertical-align': 'middle',
       },
     }),
@@ -16,7 +16,7 @@ export default defineConfig({
         // the default
         /\.(vue|svelte|[jt]sx|mdx?|astro|elm|php|phtml|html)($|\?)/,
         /** 菜单配置文件里的图标需要扫描 */
-        /\.yml$/,
+        /websites\/.*\.json$/,
       ],
     },
   },
