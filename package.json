@@ -34,7 +34,7 @@
     "eslint": "9.2.0",
     "eslint-plugin-n": "^17.4.0",
     "got": "^14.4.1",
-    "less": "4.2.0",
+    "less": "4.9.1",
     "ora": "^8.0.1",
     "parse-favicon": "^7.0.1",
     "rollup-plugin-visualizer": "^5.12.0",
